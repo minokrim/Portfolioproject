@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto Extra Bold";
+    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-Bold.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto Light Italic";
+    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-Italic.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto Black Italic";
+    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-BlackItalic.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto Thin Italic";
+    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-ThinItalic.ttf") format("truetype");
+    font-weight: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.aboutme{
+    width: 100%;
+    background: linear-gradient(to bottom, #000000 0%, #0d0d0d 40%, #343434 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutme .intro{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.aboutme img{
+    width: auto;
+    height: 250px;
+    border-radius: 10px;
+    margin: 50px;
+}
+.aboutme p{
+    display: flex;
+    width: 500px;
+    font-family: "Roboto Black Italic";
+    font-weight: lighter;
+    font-size: 0.9rem;
+    text-align: left;
+    color: white;
+    align-items: center;
+    line-height: 30px;
+}
+.skills_tools{
+    display: flex;
+    background-color: #e5e7eb;
+}
+.skills_tools h1{
+    align-self: center;
+    font-family: "Roboto Thin Italic";
+    font-weight: bolder;
+    font-size: 3rem;
+    width: 50%;
+}
+
+.skills_tools img{
+    width: auto;
+    height: 80px;
+}
+.experience{
+    display: flex;
+    padding: 20px;
+    background: linear-gradient(to bottom, #000000 0%, #0d0d0d 40%, #343434 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+    flex-direction: row-reverse;
+}
+.experience h2{
+    color: white;
+    font-family: "Roboto Thin Italic";
+    font-weight: bolder;
+    font-size: 3rem;
+    width: 50%;
+    text-align: center;
+    align-self: center;
+}
+.experience div{
+    display: flex;
+
+}
+.experience figcaption{
+    color: white;
+    font-family: "Roboto Black Italic";
+    font-weight: lighter;
+}
+.experience img{
+    width: auto;
+    height: 100px;
+
+}
+@media screen and (max-width:600px){
+    .aboutme .intro{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutme p{
+        display: flex;
+        text-align: start;
+        justify-self: center;
+        align-self: center;
+        padding: 100px;
+    }
+    .skills_tools{
+        display: flex;
+        flex-direction: column;
+    }
+    .experience{
+        display: flex;
+        flex-direction: column;
+    }
+    .experience h2{
+        width: 100%;
+    }
+    .experience div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: visible;
+    }
+    .experience img{
+        width: auto;
+        height: 80px;
+    }
+    
+}
+@media screen and (max-width:1000px){
+    .skills_tools{
+        display: flex;
+        flex-direction: column;
+    }
+    .experience{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .experience h2{
+        width: 100%;
+    }
+    .experience div{
+        display: flex;
+        overflow: scroll;
+    }
+    .experience img{
+        width: auto;
+        height: 80px;
+    }
+}

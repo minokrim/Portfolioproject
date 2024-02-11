@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto Extra Bold";
+    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-Bold.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto Light Italic";
+    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-Italic.ttf") format("truetype");
+    font-weight: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: #e5e7eb;
+    display: flex;
+}
+.sec1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+
+}
+.sec1 button{
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}
+.sec2{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: top;
+    width: 50%;
+
+}
+.sec2 img{
+    position: relative;
+    width: auto;
+    height: 450px;
+    border-radius: 10px;
+    rotate: 5deg;
+    margin-bottom: 25px;
+    z-index: 0;
+    bottom: 60px;
+}
+main h1{
+    font-family: "Roboto Extra Bold";
+    width: 400px;
+    font-size: 2rem;
+    height: 150px;
+}
+
+
+@media screen and (max-width:600px){
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .sec1{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        
+    }
+    main h1{
+        /* position: relative; */
+
+    }
+    .sec2 img{
+        width: auto;
+        width: 30px;
+        rotate: 0deg;
+        margin-top: 50px;
+    }
+    .sec2{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .sec1 button{
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    main{
+        display: flex;
+        width: 100%;
+    }
+    .sec2 img{
+    width: auto;
+    height: 200px;
+    }
+    .sec1{
+        width: 100%;
+    }
+    .sec1 h1{
+        width: 100%;
+    }
+    .sec2{
+        width: 100%;
+    }
+
+}

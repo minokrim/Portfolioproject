@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto Extra Bold";
+    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-Bold.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto Light Italic";
+    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-Italic.ttf") format("truetype");
+    font-weight: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer-sec{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    padding: 50px;
+}
+.footer-sec h1{
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    padding: 40px;
+    font-family: "Roboto Italic";
+    font-size: 3rem;
+    height: 100px;
+    font-weight: lighter;
+}
+.footer-sec-icons{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    justify-content: space-around;
+    width: 50%;
+    padding-top: 10px;
+}
+hr{
+    width: 50%;
+    align-self: center;
+}
+.footer-sec img{
+    width: auto;
+    height: 30px;
+}

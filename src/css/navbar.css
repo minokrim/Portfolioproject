@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto Extra Bold";
+    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-Bold.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto Light Italic";
+    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-Italic.ttf") format("truetype");
+    font-weight: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-border{
+    display: flex;
+    align-items: center;
+    /* justify-content: ; */
+    z-index: 1;
+    background-color: rgba(229, 231, 235,1.0);
+    padding: 20px;
+    width: 100%;
+}
+.nav-border img{
+    width: auto;
+    height: 70px;
+    margin-left: 20px;
+}
+#hamburger{
+    display: none;
+}
+#close-icon{
+    display: none;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    max-width: 1440px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto Extra Bold";
+}
+ul{
+    list-style: none;
+}
+.hover{
+    color: red;
+}
+
+
+@media screen and (max-width:600px) {
+    .nav-border{
+        display: flex;
+        justify-content: space-between;
+        max-width: 600px;
+    }
+
+     .nav {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        height: 300px;
+        width: 500px;
+        z-index: 999;
+        right: 100%;
+        top: 0px;
+        left: 90;
+        font-weight: bolder;
+        justify-content: center;
+        align-items: center;
+    }
+    #list_nav{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        width: 500px;
+        height: 300px;
+    }
+    
+     li{
+        color: black;
+        font-size: 1.1rem;
+        font-family: "Roboto Extra Bold";
+        flex-direction: column;
+        margin-right: 150px;
+        font-weight: bolder;
+    }
+
+    #hamburger{
+        display: block;
+        color: white;
+        font-size: 2rem;
+        margin-right: 30px;
+    }
+     .open{
+        right: 0%;
+    }
+    #close-icon{
+        display: flex;
+        color: black;
+        font-size: 2rem;
+        align-self: end;
+        margin-right: 20px;
+        font-weight: bolder;
+    }
+}

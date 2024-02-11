@@ -1,0 +1,164 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto Extra Bold";
+    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-Bold.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto Light Italic";
+    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-Italic.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto Black Italic";
+    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-BlackItalic.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto Thin Italic";
+    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-ThinItalic.ttf") format("truetype");
+    font-weight: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+.client_details{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255,0.4);
+    border-radius: 10px;
+    padding: 100px;
+    margin: 20px;
+    width: 40%;
+    align-items: center;
+}
+.client_details h1{
+    display: flex;
+    height: 50px;
+    width: 250px;
+    font-family: "Roboto Extra Bold";
+    font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+
+}
+.client_details p{
+    display: flex;
+    align-items: start;
+    font-family: "Roboto Thin Italic";
+    font-weight: bold;
+    padding-top: 20px;
+    width: 300px;
+}
+textarea{
+    display: flex;
+    width: 300px;
+    align-items: top;
+    justify-content: top;
+    border: none;
+}
+.client_details input{
+    display: flex;
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+}
+.client_details button{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto Regular";
+    margin: 20px 0 0 200px;
+}
+.my_details{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+    margin-bottom: 200px;
+    padding-left: 50px;
+}
+.my_details h2{
+    padding-top: 100px;
+}
+.my_details h3{
+    padding-top: 20px;
+    justify-content: center;
+    font-family: "Roboto Black Italic";
+
+}
+.my_details img{
+    width: auto;
+    height: 50px;
+}
+
+@media screen and (max-width:600px) {
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .client_details{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .my_details{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    .my_details h2{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .my_details h3{
+        justify-content: start;
+        margin-left: 10px;
+    }
+    .my_details img{
+        width: auto;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .contact{
+        display: flex;
+
+    }
+    .client_details{
+        width: 58%;
+    }
+    .my_details{
+        width: 50%;
+        padding-left: 0;
+    }
+    .my_details :nth-child(3){
+        width: 50%;
+
+    }
+}
