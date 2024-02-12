@@ -35,7 +35,7 @@ function Navbar(){
                 <Link to="/">
                     Works
                 </Link>
-                <Link to="/contact">
+                <Link to="/">
                     Contacts
                 </Link>
             </ul>
