@@ -45,7 +45,7 @@ function About(){
                 <h2>Experience</h2>
                 <div id="logos">
                     <figure>
-                        <img src={logo1} alt=""/>
+                        <img src={logo1} alt="" id="caleb"/>
                         <figcaption>Caleb University <br/> B.Sc Computer SCience <br/> 2018-2022</figcaption>
                     </figure>
                     <figure>
