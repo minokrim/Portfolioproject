@@ -108,7 +108,8 @@
 @media screen and (max-width:600px){
     .aboutme{
         width: 100%;
-        
+        display: flex;
+        overflow: hidden;
     }
     .aboutme img{
         margin: 80px;
