@@ -106,16 +106,25 @@
 
 }
 @media screen and (max-width:600px){
+    .aboutme{
+        width: 100%;
+        
+    }
+    .aboutme img{
+        margin: 80px;
+
+    }
     .aboutme .intro{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     .aboutme p{
         display: flex;
         text-align: start;
         justify-self: center;
         align-self: center;
-        padding: 100px;
+        padding: 0 100px 20px 100px;
     }
     .skills_tools{
         display: flex;
@@ -124,6 +133,7 @@
     .experience{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     .experience h2{
         width: 100%;
@@ -133,18 +143,38 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        overflow: visible;
+        border: green 1px solid;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
     }
     .experience img{
         width: auto;
         height: 80px;
+        border: green 1px solid;
+
     }
     
 }
 @media screen and (max-width:1000px){
+    .aboutme{
+        width: 100%;
+        max-width: 1000px;
+    }
+    .aboutme .intro{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .aboutme img{
+        width: auto;
+        height: 150px;
+    }
+    .aboutme p{
+
+    }
     .skills_tools{
         display: flex;
-        flex-direction: column;
+
     }
     .experience{
         display: flex;
@@ -156,6 +186,7 @@
     }
     .experience div{
         display: flex;
+
         overflow: scroll;
     }
     .experience img{

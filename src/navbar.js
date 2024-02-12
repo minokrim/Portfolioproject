@@ -27,7 +27,7 @@ function Navbar(){
             <FontAwesomeIcon icon={faX} id="close-icon" onClick={close} />
             <ul id="list_nav">
                 <Link to="/">
-                    <a href="/">Home</a>
+                    Home
                 </Link>
                 <Link to="/About">
                     About

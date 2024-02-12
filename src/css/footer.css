@@ -24,6 +24,7 @@
     flex-direction: column;
     background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
     padding: 50px;
+    width: 100%;
 }
 .footer-sec h1{
     align-self: center;
@@ -50,4 +51,9 @@ hr{
 .footer-sec img{
     width: auto;
     height: 30px;
+}
+
+@media screen and (max-width:600px){
+
+    
 }

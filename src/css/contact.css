@@ -35,7 +35,7 @@
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    
+    overflow: hidden;
 }
 .client_details{
     display: flex;
@@ -91,7 +91,7 @@ textarea{
     align-items: center;
     justify-content: center;
     font-family: "Roboto Regular";
-    margin: 20px 0 0 200px;
+
 }
 .my_details{
     display: flex;
@@ -119,17 +119,21 @@ textarea{
     .contact{
         display: flex;
         flex-direction: column;
-    }
-    .client_details{
-        display: flex;
-        flex-direction: column;
+        max-width: 600px;
         width: 100%;
+    }
+    .contact section{
+        width: 100%;
+    }
+    .client_details button{
+        margin-top: 20px;
     }
     .my_details{
         display: flex;
         flex-direction: column;
         width: 100%;
         padding: 0;
+        overflow: hidden;
     }
     .my_details h2{
         text-align: center;
@@ -143,22 +147,24 @@ textarea{
         width: auto;
         height: 25px;
     }
+    .my_details :nth-child(3){
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:1000px) {
     .contact{
         display: flex;
+        width: 100%;
 
     }
     .client_details{
-        width: 58%;
+        width: 50%;
+        overflow: visible;
     }
     .my_details{
         width: 50%;
         padding-left: 0;
     }
-    .my_details :nth-child(3){
-        width: 50%;
 
-    }
 }

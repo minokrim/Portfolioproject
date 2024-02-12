@@ -22,7 +22,6 @@
 .nav-border{
     display: flex;
     align-items: center;
-    /* justify-content: ; */
     z-index: 1;
     background-color: rgba(229, 231, 235,1.0);
     padding: 20px;
@@ -63,6 +62,7 @@ ul{
         display: flex;
         justify-content: space-between;
         max-width: 600px;
+        width: 100%;
     }
 
      .nav {
@@ -75,8 +75,10 @@ ul{
         width: 500px;
         z-index: 999;
         right: 100%;
+        margin: 0;
+        padding: 0;
         top: 0px;
-        left: 90;
+        /* left: 90; */
         font-weight: bolder;
         justify-content: center;
         align-items: center;
@@ -87,9 +89,10 @@ ul{
         align-items: flex-end;
         width: 500px;
         height: 300px;
+        padding: 50px;
     }
     
-     li{
+     Link{
         color: black;
         font-size: 1.1rem;
         font-family: "Roboto Extra Bold";
@@ -114,5 +117,7 @@ ul{
         align-self: end;
         margin-right: 20px;
         font-weight: bolder;
+        padding: 10px;
     }
+
 }

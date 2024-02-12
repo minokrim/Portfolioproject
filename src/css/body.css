@@ -14,6 +14,8 @@
     font-weight: normal;
 }
 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -23,6 +25,7 @@
 main{
     background-color: #e5e7eb;
     display: flex;
+
 }
 .sec1{
     display: flex;
@@ -78,10 +81,9 @@ main h1{
         display: flex;
         width: 100%;
         align-items: center;
-        
     }
     main h1{
-        /* position: relative; */
+        height: 200px;
 
     }
     .sec2 img{
@@ -94,6 +96,7 @@ main h1{
         display: flex;
         align-items: center;
         width: 100%;
+        padding-top: 20;
     }
     .sec1 button{
         margin-top: 25px;
@@ -111,6 +114,7 @@ main h1{
     }
     .sec1{
         width: 100%;
+        padding: 0;
     }
     .sec1 h1{
         width: 100%;
