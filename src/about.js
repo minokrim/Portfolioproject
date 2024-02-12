@@ -60,8 +60,6 @@ function About(){
                         <img src={logo4} alt=""/>
                         <figcaption>Kreativstorm <br/>front-end Trainee<br/>2024</figcaption>
                     </figure>
-                        
-
                 </div>
             </section>
         </main>
