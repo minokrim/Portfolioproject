@@ -27,16 +27,16 @@ function Navbar(){
             <FontAwesomeIcon icon={faX} id="close-icon" onClick={close} />
             <ul id="list_nav">
                 <Link to="/">
-                    <li>Home</li>
+                    Home
                 </Link>
-                <Link to="/About">
-                    <li>About</li>
+                <Link to="/about">
+                    About
                 </Link>
                 <Link to="/">
-                    <li>Works</li>
+                    Works
                 </Link>
-                <Link to="/Contact">
-                    <li>Contact</li>
+                <Link to="/contact">
+                    Contacts
                 </Link>
             </ul>
         </nav>
