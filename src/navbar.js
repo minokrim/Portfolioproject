@@ -7,7 +7,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faX } from '@fortawesome/free-solid-svg-icons';
 import {Link} from "react-router-dom";
-import Home from "./home";
 AOS.init();
 function Navbar(){
     const[burgermenu,setburgermenu]=useState(false)
@@ -33,7 +32,7 @@ function Navbar(){
                 <Link to="/About">
                     <li>About</li>
                 </Link>
-                <Link to="">
+                <Link to="/">
                     <li>Works</li>
                 </Link>
                 <Link to="/Contact">

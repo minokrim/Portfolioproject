@@ -60,7 +60,7 @@
 }
 .client_details p{
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     font-family: "Roboto Thin Italic";
     font-weight: bold;
     padding-top: 20px;
@@ -136,7 +136,7 @@ textarea{
         padding-top: 20px;
     }
     .my_details h3{
-        justify-content: start;
+        justify-content: flex-start;
         margin-left: 10px;
     }
     .my_details img{
