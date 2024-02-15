@@ -26,16 +26,16 @@ function Navbar(){
         <nav className={`nav ${burgermenu ? 'open' : ''}`}>
             <FontAwesomeIcon icon={faX} id="close-icon" onClick={close} />
             <ul id="list_nav">
-                <Link to="/">
+                <Link to="/" className="type1 " id="home_btn">
                     Home
                 </Link>
-                <Link to="/About">
+                <Link to="/About" className="type1 " id="home_btn">
                     About
                 </Link>
-                <Link to="/">
+                <Link to="/" className="type1 " id="home_btn">
                     Works
                 </Link>
-                <Link to="/Contact">
+                <Link to="/Contact" className="type1 " id="home_btn">
                     Contacts
                 </Link>
             </ul>

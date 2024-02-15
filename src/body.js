@@ -1,6 +1,7 @@
 import React ,{useEffect,useRef}from "react"
 import "./css/body.css"
 import image from "./Assets/website image.JPG"
+import resume from "./Assets/RESUME1.pdf"
 import Typed from 'typed.js';
 function Body(){
     const el = React.useRef(null);
@@ -24,7 +25,7 @@ function Body(){
         <main>
             <section className="sec1">
               <h1 ref={el}></h1>
-              <a href=""><button>Download CV</button></a>
+              <a href={resume} download={"resume.pdf"}><button>Download CV</button></a>
             </section>
             <section className="sec2">
               <a href=""><img src= {image} alt=""/></a>

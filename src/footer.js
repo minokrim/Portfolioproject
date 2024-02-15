@@ -10,10 +10,10 @@ function Footer(){
             <h1>Follow Me</h1>
             <hr/>
             <section className="footer-sec-icons">
-              <a><img src={image4} alt=""/></a>
-              <a><img src={image1} alt=""/></a>
-              <a><img src={image2} alt=""/></a>
-              <a><img src={image3} alt=""/></a>
+              <a href="" target="_blank"><img src={image4} alt=""/></a>
+              <a href="https://twitter.com/MINOKRIM" target="_blank"><img src={image1} alt=""/></a>
+              <a href="https://www.facebook.com/MINOKRIM2001" target="_blank"><img src={image2} alt=""/></a>
+              <a href="https://www.linkedin.com/in/alameen-kareem-0b5a7820a/" target="_blank"><img src={image3} alt=""/></a>
             </section>
         </main>
 

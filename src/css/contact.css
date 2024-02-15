@@ -165,6 +165,8 @@ textarea{
     .my_details{
         width: 50%;
         padding-left: 0;
+        margin-bottom: 20px;
+        border: solid 1px green;
     }
 
 }

@@ -111,15 +111,17 @@
         display: flex;
         overflow: hidden;
     }
-    .aboutme img{
-        margin: 80px;
-
-    }
     .aboutme .intro{
         display: flex;
         flex-direction: column;
         width: 100%;
     }
+
+    .aboutme .intro img{
+        width: auto;
+        height: 290px;
+    }
+
     .aboutme p{
         display: flex;
         text-align: start;
