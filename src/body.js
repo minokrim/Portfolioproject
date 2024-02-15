@@ -25,7 +25,7 @@ function Body(){
         <main>
             <section className="sec1">
               <h1 ref={el}></h1>
-              <a href={resume} download={"resume.pdf"}><button>Download CV</button></a>
+              <a href={resume} download={"resume.pdf"} target="_blank"><button>Download CV</button></a>
             </section>
             <section className="sec2">
               <a href=""><img src= {image} alt=""/></a>
