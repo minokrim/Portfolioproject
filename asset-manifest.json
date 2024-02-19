@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolioproject/static/css/main.48444e6f.css",
-    "main.js": "/Portfolioproject/static/js/main.bb6e8164.js",
+    "main.css": "/Portfolioproject/static/css/main.a4266840.css",
+    "main.js": "/Portfolioproject/static/js/main.d01f52d6.js",
     "static/js/592.a76b83c4.chunk.js": "/Portfolioproject/static/js/592.a76b83c4.chunk.js",
+    "static/media/me3.jpg": "/Portfolioproject/static/media/me3.d105d7fb5582235d42ca.jpg",
+    "static/media/me4.jpg": "/Portfolioproject/static/media/me4.002a7ef8b63b88192a9d.jpg",
     "static/media/NYSC_LOGO.svg-removebg-preview.png": "/Portfolioproject/static/media/NYSC_LOGO.svg-removebg-preview.b94bf641dc6a77bcc60f.png",
     "static/media/caleb-university-logo101485-new-removebg-preview.png": "/Portfolioproject/static/media/caleb-university-logo101485-new-removebg-preview.f26dc2edfc79d9ec6f30.png",
     "static/media/Roboto-BlackItalic.ttf": "/Portfolioproject/static/media/Roboto-BlackItalic.fd62a10743bd89a3d97c.ttf",
     "static/media/webpage1.png": "/Portfolioproject/static/media/webpage1.8a05669e974a3fef3969.png",
     "static/media/Roboto-ThinItalic.ttf": "/Portfolioproject/static/media/Roboto-ThinItalic.9d2ca34eae96e77c6eef.ttf",
-    "static/media/website image.JPG": "/Portfolioproject/static/media/website image.e3383d40825e60911c6f.JPG",
     "static/media/Roboto-Italic.ttf": "/Portfolioproject/static/media/Roboto-Italic.87f3afe16a8c3c370634.ttf",
     "static/media/Roboto-Regular.ttf": "/Portfolioproject/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/Roboto-Bold.ttf": "/Portfolioproject/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
@@ -17,11 +18,11 @@
     "static/media/Canvalogo-removebg-preview.png": "/Portfolioproject/static/media/Canvalogo-removebg-preview.a0beb6358ca1a6d411ce.png",
     "static/media/ChromeLogo-removebg-preview.png": "/Portfolioproject/static/media/ChromeLogo-removebg-preview.5d08d5f1e00525936739.png",
     "static/media/csslogo-removebg-preview.png": "/Portfolioproject/static/media/csslogo-removebg-preview.71940ff962491fb83a7f.png",
-    "static/media/RESUME1.pdf": "/Portfolioproject/static/media/RESUME1.21b4235be6d29fb83957.pdf",
     "static/media/htmllogo-removebg-preview.png": "/Portfolioproject/static/media/htmllogo-removebg-preview.6476de921167d0efccb4.png",
     "static/media/vscodelogo-removebg-preview.png": "/Portfolioproject/static/media/vscodelogo-removebg-preview.bd1551297184bee70b59.png",
     "static/media/jquerylogo-removebg-preview.png": "/Portfolioproject/static/media/jquerylogo-removebg-preview.6a9f09447c26c351c2e7.png",
     "static/media/phone-removebg-preview.png": "/Portfolioproject/static/media/phone-removebg-preview.b1bec477c089be141dec.png",
+    "static/media/resume2.pdf": "/Portfolioproject/static/media/resume2.3be8f073502cad1e2f7f.pdf",
     "static/media/business-removebg-preview.png": "/Portfolioproject/static/media/business-removebg-preview.57ee47967a2b2306702c.png",
     "static/media/kreativstorm_logo-removebg-preview.png": "/Portfolioproject/static/media/kreativstorm_logo-removebg-preview.663aed2934a432e39a82.png",
     "static/media/githublogo-removebg-preview.png": "/Portfolioproject/static/media/githublogo-removebg-preview.e092bd0572db205b1373.png",
@@ -32,12 +33,12 @@
     "static/media/instagram.png": "/Portfolioproject/static/media/instagram.633bd2d016a15e79316b.png",
     "static/media/twitter.png": "/Portfolioproject/static/media/twitter.480d6b94e25315f13d96.png",
     "index.html": "/Portfolioproject/index.html",
-    "main.48444e6f.css.map": "/Portfolioproject/static/css/main.48444e6f.css.map",
-    "main.bb6e8164.js.map": "/Portfolioproject/static/js/main.bb6e8164.js.map",
+    "main.a4266840.css.map": "/Portfolioproject/static/css/main.a4266840.css.map",
+    "main.d01f52d6.js.map": "/Portfolioproject/static/js/main.d01f52d6.js.map",
     "592.a76b83c4.chunk.js.map": "/Portfolioproject/static/js/592.a76b83c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48444e6f.css",
-    "static/js/main.bb6e8164.js"
+    "static/css/main.a4266840.css",
+    "static/js/main.d01f52d6.js"
   ]
 }
