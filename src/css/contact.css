@@ -91,6 +91,7 @@ textarea{
     align-items: center;
     justify-content: center;
     font-family: "Roboto Regular";
+    margin-top: 10px;
 
 }
 .my_details{
@@ -166,7 +167,6 @@ textarea{
         width: 50%;
         padding-left: 0;
         margin-bottom: 20px;
-        border: solid 1px green;
     }
 
 }

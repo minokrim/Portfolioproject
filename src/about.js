@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "./footer";
 import Navbar from "./navbar";
-import image from "./Assets/website image.JPG"
+import image from "./Assets/me3.jpg"
 import image1 from "./Assets/htmllogo-removebg-preview.png"
 import image2 from "./Assets/csslogo-removebg-preview.png"
 import image3 from "./Assets/JavaScriptlogo.png"
