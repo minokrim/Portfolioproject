@@ -30,7 +30,7 @@ function Contact(){
                 text: "input valid email",
                 footer: '<a href="#">Why do I have this issue?</a>'
               });
-            return; // Stop form submission if email format is invalid
+            return;
         }
         e.preventDefault()
         var cl_message={
@@ -41,9 +41,6 @@ function Contact(){
         axios.post("http://localhost:5000/db/react",cl_message)
         .then((res)=>{
             console.log(res)
-            setfullname("");
-            setemail("");
-            setmessage("");
         })
         .catch((error)=>{
             console.log(error)
@@ -55,6 +52,9 @@ function Contact(){
             showConfirmButton: false,
             timer: 1500
           });
+          setfullname("");
+          setemail("");
+          setmessage("");
     }
     return <div>
         <Navbar/>
