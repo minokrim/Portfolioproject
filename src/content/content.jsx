@@ -10,7 +10,7 @@ import port5 from "../Assets/port5.JPG"
 import port6 from "../Assets/port6.JPG"
 import port7 from "../Assets/port7.jpg"
 import port8 from "../Assets/port8.jpg"
-import link from "../Assets/link.png"
+import link from "../Assets/link1.png"
 
 import "./content.css"
 import { Link } from 'react-router-dom';
