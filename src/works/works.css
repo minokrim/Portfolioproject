@@ -1,0 +1,169 @@
+.workBody{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+.proj{
+    display: flex;
+    gap: 100px;
+    text-align: left;
+    margin-top: 50px;
+    padding: 10px;
+    color: white;
+}
+.imgborder{
+    border: 5px solid #e5e7eb;
+    width: auto;
+    height: 350px;
+    display: flex;
+}
+.detailSec{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.proj1img{
+    position: relative;
+    width: 400px;
+    height: 350px;
+    bottom: 30px;
+    left: 30px;
+}
+
+h1{
+    font-size: 48px;
+    text-align: right;
+}
+h3{
+    width: 100%;
+}
+.proj2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+    color: white;
+    gap: 100px;
+    text-align: left;
+}
+.proj2 h1{
+    font-size: 48px;
+    text-align: left;
+}
+.proj2img{
+    position: relative;
+    width: 400px;
+    height: 350px;
+    bottom: 30px;
+    right: 30px;
+}
+.proj3{
+    display: flex;
+    padding: 20px;
+    color: white;
+    gap: 100px;
+    text-align: left;
+}
+.proj3img{
+    position: relative;
+    width: 400px;
+    height: 350px;
+    bottom: 30px;
+    left: 30px;
+}
+.visitLink{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #e5e7eb;
+    padding: 10px;
+    border-radius: 20px;
+    width: max-content;
+}
+.linksection{
+    display: flex;
+    gap: 20px;
+}
+.li{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.linkimg{
+    width: auto;
+    height: 20px;
+}
+.li:hover{
+    transform: scale(110%);
+}
+
+@media screen and (max-width:770px){
+    .proj{
+        display: flex;
+        gap: 50px;
+    }
+    .proj2{
+        margin-top: 50px;
+        gap: 0px;
+    }
+    .proj2 h3{
+        width: 90%;
+        margin-left: 5px;
+    }
+    .proj2 h1{
+        margin-left: 5px;
+    }
+}
+@media screen and (max-width:600px){
+    .imgborder{
+        height: 200px;
+        width: 200px;
+    }
+    .proj1img{
+        position: relative;
+        width: 250px;
+        height: 200px;
+        bottom: 30px;
+        left: 30px;
+    }
+    .proj{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .proj2{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        color: white;
+        gap: 0px;
+        text-align: left;
+        margin-top: 50px;
+    }
+    .proj2img{
+        position: relative;
+        width: 250px;
+        height: 200px;
+        bottom: 30px;
+        left: 30px;
+    }
+    .proj3{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        color: white;
+        gap: 0px;
+        text-align: left;
+    }
+    .proj3img{
+        position: relative;
+        width: 250px;
+        height: 200px;
+        bottom: 30px;
+        left: 30px;
+    }
+    .linksection{
+        display: flex;
+        width: 100%;
+        gap: 0;
+        justify-content: space-around;
+    }
+}

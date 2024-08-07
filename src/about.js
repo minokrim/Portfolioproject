@@ -2,6 +2,8 @@ import React from "react";
 import Footer from "./footer";
 import Navbar from "./navbar";
 import image from "./Assets/me3.jpg"
+import me from "./Assets/me.jpg"
+import mee from "./Assets/mee.png"
 import image1 from "./Assets/htmllogo-removebg-preview.png"
 import image2 from "./Assets/csslogo-removebg-preview.png"
 import image3 from "./Assets/JavaScriptlogo.png"
@@ -22,9 +24,16 @@ function About(){
         <Navbar/>
         <main className="aboutme">
             <section className="intro">
-                <img src={image} alt=""/>
-                <p>My name is Kareem Alameen, i am a front-end developer who focuses on writing clean, elegant, and efficient code. I embrace challenges as opportunities to hone my skills and expand my horizons. With each line of code, I strive to push boundaries and unlock new possibilities. I'm eager to Work, collaborate, learn from others, and contribute my unique perspective to the ever-evolving tech community. 
+                <img src={me} alt=""/>
+                <section className="aboutparagraph">
+                <p className="paragraph1">My name is Kareem Alameen, i am a front-end developer who focuses on writing clean, elegant, and efficient code. I embrace challenges as opportunities to hone my skills and expand my horizons. With each line of code, I strive to push boundaries and unlock new possibilities.
                 </p>
+                <p className="paragraph3">I have hands-on experience in full-stack web development, API integration, and security protocols. My skills include HTML5, CSS3, JavaScript (ES6+), Reactjs, Nodejs, Expressjs, MongoDB, and PostgreSQL. I bring a blend of technical proficiency and creativity, honed through professional projects.</p>
+                <p className="paragraph2">
+                Alongside my development expertise, I have a strong background in content creation, having strategically developed and executed impactful campaigns to enhance brand visibility and engagement. I have produced tutorial videos for YouTube channels, engaged with customers through various social media platforms, and created compelling blogs and website content.
+                </p>
+                <p className="paragraph4">I'm eager to work, collaborate, learn from others, and contribute my unique perspective to the ever-evolving tech community.</p>
+                </section>
             </section>
             <section className="skills_tools">
                 <h1>Skills & Tools</h1>

@@ -1,0 +1,345 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto Extra Bold";
+    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-Bold.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto Light Italic";
+    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-Italic.ttf") format("truetype");
+    font-weight: normal;
+}
+
+.designheader{
+    font-family: Roboto Light Italic;
+    color: #e6e9f0;
+}
+.contentBody{
+    background-color: #e6e9f0;
+}
+.designtop{
+    display: flex;
+}
+.designs{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #2e3c49 0%, rgb(132, 130, 130) 100%);
+    justify-content: center;
+    align-items: center;
+}
+.designs img{
+    width: auto;
+    height: 300px;
+}
+.designs img:hover{
+    transform: scale(120%);
+}
+.graphics{
+    display: flex;
+}
+.designLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.designLeft img{
+    width: auto;
+    height: 250px;
+    border-radius: 7px;
+    margin-top: 12px;
+}
+.designRight{
+    display: flex;
+    flex-direction: column;
+}
+.design1{
+    background-color: #e6e9f0;
+    width: 400px;
+    height: max-content;
+    border-radius: 20px;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+}
+.design1 img{
+    margin-left: 80px;
+}
+.design1 h4{
+    font-family: Roboto Regular;
+    width: 79%;
+    font-weight: 8000;
+    font-size: 17px;
+}
+.design2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+.design2 img{
+    width: 250px;
+    height: 220px;
+    background-color: #e6e9f0;
+    border-radius: 5px;
+}
+.design3{
+    display: flex;
+    gap: 20px;
+    width: max-content;
+    height: max-content;
+    background-color: #e6e9f0;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.videos{
+    background-color: black;
+    padding: 20px;
+}
+.frame{
+    border-radius: 50px;
+}
+.frame4{
+    border-radius: 100px;
+}
+.framesec{
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    font-family: Roboto Light Italic;
+    color: white;
+    font-size: 60px;
+}
+
+.blog{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px;
+    background-color: black;
+    color: white;
+}
+.blog h3{
+    font-family: "Roboto Extra Bold";
+}
+.blogs section{
+    text-align: left;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+.blogs p{
+    font-family: "Roboto Extra Bold"; 
+}
+.blogs h3{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Roboto Regular";
+}
+.blogs h4{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Roboto Light Italic";
+    text-align: left;
+}
+.linkcontainer{
+    display: flex;
+    justify-content: end;
+}
+.blogs hr{
+    width: 100%;
+}
+.link{
+    display: flex;
+    flex-direction: row-reverse;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #e6e9f0;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 10px;
+    width: max-content;
+    margin-left: 490px;
+    margin-bottom: 5px;
+}
+.link img{
+    width: auto;
+    height: 20px;
+}
+.link:active{
+    background-color: red;
+}
+.link:hover{
+    font-weight: 700;
+}
+
+.contentSec1 h3{
+    font-family: "Roboto Light Italic";
+    font-size: 36px;
+    font-weight: 3000;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.contentSec1 img{
+    width: 900px;
+    height: 900px;
+    margin-top: 0;
+    padding-top: 0;
+}
+@media screen and (max-width:770px){
+
+    .designLeft{
+        gap: 20px;
+        margin-top: 10px;
+    }
+    .designs img{
+        width: auto;
+        height: 180px;
+        border-radius: 5px;
+    }
+    .design1{
+        width: 320px;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        margin: 0px 10px 0px 10px;
+        gap: 5px;
+    }
+    .design2{
+        margin-top: 10px;
+    }
+    .design3{
+        display: flex;
+        gap: 20px;
+        width: max-content;
+        height: max-content;
+        background-color: transparent;
+        padding: 0px;
+        margin-bottom: 20px;
+        margin-left: 139px;
+        margin-top: 20px;
+    }
+    .contentSec1 img{
+        width: auto;
+        height: 700px;
+        margin-top: 0;
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width:600px){
+.designLeft{
+    gap: 7px;
+    margin-top: 0px;
+}
+    .designs img{
+    width: auto;
+    height: 80px;
+    border-radius: 5px;
+}
+.design1{
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    height: 200px;
+    margin: 0px 10px 0px 10px;
+    gap: 5px;
+}
+.design1 h4{
+    font-family: Roboto Regular;
+    width: 100%;
+    font-weight: 600;
+    font-size: 7.3px;
+    /* display: none; */
+}
+.design1 img{
+    margin-left: 0px;
+    width: auto;
+    height: 100px;
+}
+.design2{
+    margin-top: 10px;
+}
+.design3{
+    display: flex;
+    gap: 20px;
+    width: max-content;
+    height: max-content;
+    background-color: transparent;
+    padding: 0px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+
+.videos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.videossec{
+    display: flex;
+    overflow: scroll;
+    gap: 20px;
+}
+.frame{
+    width: auto;
+    height: 200px;
+    border-radius: 20px;
+}
+.framesec{
+    display: flex;
+    gap: 20px;
+}
+.frame4{
+    border-radius: 50px;
+}
+
+.blog{
+    padding: 5px;
+    width: 100%;
+}
+.blogs section{
+    width: 100%;
+    gap: 10px;
+}
+.blogs h3{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Roboto Regular";
+}
+.blogs h4{
+    width: 90%;
+    font-size: 13px;
+}
+.blogs hr{
+    width: 100%;
+}
+.link{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 0;
+    align-self: center;
+    justify-self: center;
+}
+.contentSec1 img{
+    width: auto;
+    height: 300px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+}

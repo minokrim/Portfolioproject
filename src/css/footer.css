@@ -52,8 +52,8 @@ hr{
     width: auto;
     height: 30px;
 }
-
 @media screen and (max-width:600px){
-
-    
+    .footer-sec h1{
+        width: max-content;
+    }
 }

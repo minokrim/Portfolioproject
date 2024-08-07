@@ -44,17 +44,16 @@
 }
 .aboutme img{
     width: auto;
-    height: 250px;
+    height: 450px;
     border-radius: 10px;
     margin: 50px;
 }
 .aboutme p{
     display: flex;
-    width: 500px;
+    width: 700px;
     font-family: "Roboto Black Italic";
     font-weight: lighter;
-    font-size: 0.9rem;
-    text-align: left;
+    font-size: 1.0rem;
     color: white;
     align-items: center;
     line-height: 30px;
@@ -69,6 +68,21 @@
     font-weight: bolder;
     font-size: 3rem;
     width: 50%;
+}
+.aboutparagraph{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+.paragraph1{
+    text-align: right;
+}
+.paragraph2{
+    text-align: left;
+}
+.paragraph4{
+    text-align: right;
 }
 
 .skills_tools img{
@@ -105,6 +119,19 @@
     height: 100px;
 
 }
+@media screen and (max-width:770px){
+    .aboutme p{
+        display: flex;
+        text-align: start;
+        justify-self: center;
+        align-self: center;
+        width: 100%;
+    }
+    .aboutme .intro img{
+        width: auto;
+        height: 500px;
+    }
+}
 @media screen and (max-width:600px){
     .aboutme{
         width: 100%;
@@ -119,7 +146,7 @@
 
     .aboutme .intro img{
         width: auto;
-        height: 300px;
+        height: 400px;
     }
 
     .aboutme p{
@@ -127,11 +154,17 @@
         text-align: start;
         justify-self: center;
         align-self: center;
-        padding: 0 100px 20px 100px;
+        padding: 0 20px 20px 20px;
+        width: 100%;
     }
+    
     .skills_tools{
         display: flex;
         flex-direction: column;
+    }
+    .skills_tools h1{
+        width: 100%;
+        text-align: center;
     }
     .skills_tools div{
         align-items: center;

@@ -46,11 +46,32 @@
     margin-top: 50px;
     rotate: 7deg;
 }
+#img1{
+    transition-duration: 2s;
+    transition-delay: 0.2s;
+}
+#img1:hover{
+    rotate: 1deg;
+}
 #img2{
-    rotate: -15deg 
+    rotate: -15deg;
+    width: 400px;
+    height: 300px;
+    transition-duration: 2s;
+    transition-delay: 0.2s;
+}
+#img2:hover{
+    rotate: 1deg;
 }
 #img3{
     rotate: 5deg;
+    width: 350px;
+    height: 300px;
+    transition-duration: 2s;
+    transition-delay: 0.2s;
+}
+#img3:hover{
+    rotate: 0deg;
 }
 .sec-2{
     display: flex;
@@ -73,6 +94,7 @@
     border: none;
     font-family: "Roboto Extra Bold";
     margin: 20px;
+    cursor: pointer;
 }
 
 
@@ -88,19 +110,6 @@
     }
 }
 
-@media screen and (max-width:350px){
-    .sec-1 img{
-        rotate: 0deg;
-        margin-bottom: 50px;
-    }
-    #img2{
-        rotate: 0deg
-    }
-    #img3{
-        rotate: 0deg
-    }
-}
-
 @media screen and (max-width:1200px){
     .sec-1{
     display: flex;
@@ -110,5 +119,23 @@
     .sec-1 img{
         margin-bottom: 50px;
         height: 280px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .sec-1 img{
+        rotate: 0deg;
+        margin-bottom: 50px;
+    }
+    #img1{
+        width: 300px;
+    }
+    #img2{
+        rotate: 0deg;
+        width: 300px;
+    }
+    #img3{
+        rotate: 0deg;
+        width: 300px;
     }
 }

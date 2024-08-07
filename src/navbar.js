@@ -32,8 +32,11 @@ function Navbar(){
                 <Link to="/About" className="type1 " id="home_btn">
                     About
                 </Link>
-                <Link to="/" className="type1 " id="home_btn">
+                <Link to="/Works" className="type1 " id="home_btn">
                     Works
+                </Link>
+                <Link to="/Content" className="type1 " id="home_btn">
+                    Content
                 </Link>
                 <Link to="/Contact" className="type1 " id="home_btn">
                     Contacts
