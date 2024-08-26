@@ -1,7 +1,7 @@
 import React ,{useEffect,useRef}from "react"
 import "./css/body.css"
 import image from "./Assets/me4.jpg"
-import resume from "./Assets/resume2.pdf"
+import resume from "./Assets/ITRESUME.pdf"
 import Typed from 'typed.js';
 function Body(){
     const el = React.useRef(null);
