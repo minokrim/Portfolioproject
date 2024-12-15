@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({extended:true}))
 
-const { EMAIL_USER, EMAIL_PASS,SMTP_HOST, SMTP_PORT,SERVER_PORT} = process.env;
+const { EMAIL_USER, EMAIL_PASS} = process.env;
 
 let transporter=nodemailer.createTransport({
     service:'gmail',
