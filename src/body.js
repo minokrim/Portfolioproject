@@ -1,14 +1,14 @@
 import React ,{useEffect,useRef}from "react"
 import "./css/body.css"
 import image from "./Assets/me4.jpg"
-import resume from "./Assets/ITRESUME.pdf"
+import resume from "./Assets/Fullstack.pdf"
 import Typed from 'typed.js';
 function Body(){
     const el = React.useRef(null);
 
     React.useEffect(() => {
       const typed = new Typed(el.current, {
-        strings: ["HI..I'm Kareem Alameen, a budding front-end developer eager to make waves in the digital world. ", 'While my journey as a developer is just beginning, my commitment is unwavering.',"Browse through my portfolio to witness the evolution of my skills and projects."],
+        strings: ["Hi, I'm Kareem Alameen, a passionate Full Stack Developer.", "With a growing portfolio of projects showcasing both front-end and back-end expertise,", "I aim to bridge the gap between functionality and design.", "Explore my work to see how my skills have evolved and the meaningful solutions I bring to life."],
         stringsElement: null,
         typeSpeed: 80,
         backDelay: 5000,
@@ -16,7 +16,6 @@ function Body(){
       });
       
       return () => {
-        // Destroy Typed instance during cleanup to stop animation
         typed.destroy();
       };
     }, []);

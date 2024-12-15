@@ -1,9 +1,11 @@
 import React from "react"
 import "./css/works.css"
-import image1 from "./Assets/webpage1.png"
+import image1 from "./Assets/cysd1.png"
 import p2 from "./Assets/p2.png"
-import p3 from "./Assets/p3.png"
+import p3 from "./Assets/ecommerce2.png"
 import { Link } from "react-router-dom"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Works(){
     return<div>
@@ -11,12 +13,13 @@ function Works(){
             <p>Featured Projects</p>
             <section className="sec-1">
                 <Link to="/Works">
-                <div><img src={image1} alt="" id="img1"/></div></Link>
-                <Link to="/Works">
-                <div><img src={p2} alt="" id="img2"/></div>
+                <div data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"><img src={image1} alt="" id="img1"/></div>
                 </Link>
                 <Link to="/Works">
-                <div><img src={p3} alt=""id="img3"/></div>
+                <div data-aos="fade-down" data-aos-delay="200" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"><img src={p2} alt="" id="img2"/></div>
+                </Link>
+                <Link to="/Works">
+                <div data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"><img src={p3} alt=""id="img3"/></div>
                 </Link>
             </section>
             <section className="sec-2">

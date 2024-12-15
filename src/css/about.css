@@ -41,26 +41,53 @@
     display: flex;
     justify-content: space-around;
     width: 100%;
+    align-items: center;
 }
 .aboutme img{
-    width: auto;
-    height: 450px;
+    max-width: auto;
+    height: 500px;
     border-radius: 10px;
     margin: 50px;
 }
 .aboutme p{
     display: flex;
     width: 700px;
-    font-family: "Roboto Black Italic";
+    font-family: "Roboto Light Italic";
     font-weight: lighter;
-    font-size: 1.0rem;
+    font-size: 1.2rem;
     color: white;
     align-items: center;
     line-height: 30px;
 }
+.skills_tools_container{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
 .skills_tools{
     display: flex;
     background-color: #e5e7eb;
+}
+.btn{
+    display: flex;
+    width: 10em;
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    align-self: flex-end;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 5px #666;
+    border: none;
+    cursor: pointer;
+}
+.btn:active{
+    background-color: rgb(50, 124, 156);
+    transform: scale(0.95);
+    box-shadow: 0 2px #666;
 }
 .skills_tools h1{
     align-self: center;
@@ -72,14 +99,35 @@
 .aboutparagraph{
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    margin-top: 40px;
+    gap: 10px;
+    font-size: 1.5em;
+}
+.aboutparagraph h3{
+    color: white;
+    text-align: right;
+    font-size: 2.5em;
+    font-family: "Roboto Extra Bold";
 }
 .paragraph1{
-    text-align: right;
+    text-align: left;
+    font-family: "Roboto Light Italic";
+
 }
 .paragraph2{
     text-align: left;
+}
+.paragraph3{
+    text-align: left;
+}
+.stack{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: left;
+    list-style: circle;
+    font-family: "Roboto Light Italic";
+    gap: 10px;
+    font-size: 0.9em;
 }
 .paragraph4{
     text-align: right;
@@ -105,9 +153,11 @@
     text-align: center;
     align-self: center;
 }
+.carousel{
+    width: 100%;
+}
 .experience div{
     display: flex;
-
 }
 .experience figcaption{
     color: white;
@@ -119,103 +169,7 @@
     height: 100px;
 
 }
-@media screen and (max-width:770px){
-    .aboutme p{
-        display: flex;
-        text-align: start;
-        justify-self: center;
-        align-self: center;
-        width: 100%;
-    }
-    .aboutme .intro img{
-        width: auto;
-        height: 500px;
-    }
-}
-@media screen and (max-width:600px){
-    .aboutme{
-        width: 100%;
-        display: flex;
-        overflow: hidden;
-    }
-    .aboutme .intro{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .aboutme .intro img{
-        width: auto;
-        height: 400px;
-    }
-
-    .aboutme p{
-        display: flex;
-        text-align: start;
-        justify-self: center;
-        align-self: center;
-        padding: 0 20px 20px 20px;
-        width: 100%;
-    }
-    
-    .skills_tools{
-        display: flex;
-        flex-direction: column;
-    }
-    .skills_tools h1{
-        width: 100%;
-        text-align: center;
-    }
-    .skills_tools div{
-        align-items: center;
-        justify-content: center;
-    }
-
-    .skills_tools div :nth-child(6){
-        width: auto;
-        height: 100px;
-    }
-    .skills_tools div :nth-child(9){
-        width: auto;
-        height: 110px;
-    }
-    .experience{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        padding: 0px;
-        margin: 0px;
-    }
-    .experience h2{
-        width: 100%;
-    }
-
-    #logos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: 0px;
-        padding: 0px;
-    }
-    #caleb{
-        width: auto;
-        height: 50px;
-    }
-    .experience img{
-        width: auto;
-        height: 80px;
-    }
-    .experience figure{
-        width: 100%;
-        margin: 0px;
-        padding: 0px;
-        align-items: center;
-        justify-content: center;
-    }
-    
-}
-@media screen and (max-width:1000px){
+/* @media screen and (max-width:1000px){
     .aboutme{
         width: 100%;
         max-width: 1000px;
@@ -255,4 +209,117 @@
         width: auto;
         height: 80px;
     }
+} */
+@media screen and (max-width:1040px){
+    .aboutme p{
+        display: flex;
+        text-align: start;
+        justify-self: center;
+        align-self: center;
+        width: 100%;
+    }
+    .aboutme .intro img{
+        width: auto;
+        height: 500px;
+    }
+}
+@media screen and (max-width:660px){
+    .aboutme{
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+    }
+    .aboutme .intro{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .aboutme .intro img{
+        width: auto;
+        height: 400px;
+    }
+
+    .aboutme p{
+        display: flex;
+        text-align: start;
+        justify-self: center;
+        align-self: center;
+        padding: 0 20px 20px 20px;
+        width: 100%;
+    }
+    .aboutme ul{
+        padding: 0 20px 20px 20px;
+    }
+    
+    .skills_tools{
+        display: flex;
+        flex-direction: column;
+    }
+    .skills_tools h1{
+        width: 100%;
+        text-align: center;
+        height: 30px;
+    }
+    .skills_tools div{
+        align-items: center;
+        justify-content: center;
+    }
+    .skill_img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills_tools div :nth-child(6){
+        width: auto;
+        height: 100px;
+    }
+    .skills_tools div :nth-child(9){
+        width: auto;
+        height: 110px;
+    }
+    .btn{
+        width: 9em;
+        align-self: center;
+    }
+    .experience{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .experience h2{
+        width: 100%;
+    }
+
+    #logos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    #caleb{
+        width: auto;
+        height: 50px;
+    }
+    .experience img{
+        width: auto;
+        height: 80px;
+    }
+    .experience figure{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    .aboutparagraph h3{
+        text-align: center;
+        font-family: "Roboto Extra Bold";
+    }
+    
 }

@@ -56,4 +56,12 @@ hr{
     .footer-sec h1{
         width: max-content;
     }
+    hr{
+        width: 90%;
+    }
+    .footer-sec-icons{
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+    }
 }

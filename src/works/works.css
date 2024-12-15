@@ -94,6 +94,24 @@ h3{
 .li:hover{
     transform: scale(110%);
 }
+.cysdProj{
+    display: flex;
+    flex-direction: row-reverse
+}
+.storeProj{
+    display: flex;
+}
+.tm30Proj{
+    display: fl;
+    flex-direction: row-reverse;
+}
+.storeimg{
+    position: relative;
+    width: 400px;
+    height: 350px;
+    bottom: 30px;
+    left: 30px;
+}
 
 @media screen and (max-width:770px){
     .proj{
@@ -154,6 +172,13 @@ h3{
         text-align: left;
     }
     .proj3img{
+        position: relative;
+        width: 250px;
+        height: 200px;
+        bottom: 30px;
+        left: 30px;
+    }
+    .storeimg{
         position: relative;
         width: 250px;
         height: 200px;

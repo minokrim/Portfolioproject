@@ -1,9 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import Footer from "./footer";
 import Navbar from "./navbar";
-import image from "./Assets/me3.jpg"
 import me from "./Assets/me.jpg"
-import mee from "./Assets/mee.png"
 import image1 from "./Assets/htmllogo-removebg-preview.png"
 import image2 from "./Assets/csslogo-removebg-preview.png"
 import image3 from "./Assets/JavaScriptlogo.png"
@@ -18,58 +16,141 @@ import logo1 from "./Assets/caleb-university-logo101485-new-removebg-preview.png
 import logo2 from "./Assets/zkteco_logo-removebg-preview.png"
 import logo3 from "./Assets/NYSC_LOGO.svg-removebg-preview.png"
 import logo4 from "./Assets/kreativstorm_logo-removebg-preview.png"
-import "./css/about.css"
+import mongodb from "./Assets/monodb.png"
+import express from "./Assets/express.png"
+import figma from "./Assets/figma.png"
+import docker from "./Assets/docker.png"
+import jest from "./Assets/jest.png"
+import react_test from "./Assets/react-test.png";
+import wordpress from "./Assets/wordpress.png"
+import postgres from "./Assets/postgres.png"
+import nodejs from "./Assets/nodejs.png"
+import jira from "./Assets/jira.png"
+import office from "./Assets/office.png"
+import google from "./Assets/google.png"
+import php from "./Assets/php.png"
+import trent from "./Assets/trent.png"
+import cysd from "./Assets/cysd.png"
+import yuvoice from "./Assets/yuvoice.png"
+import Carousel from "react-multi-carousel";
+import 'react-multi-carousel/lib/styles.css';
+import "./css/about.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 function About(){
+    const [viewMore,setViewMore]=useState(false)
+    function handleClick(){
+
+    }
+    const responsive = {
+        superLargeDesktop: {
+          breakpoint: { max: 4000, min: 3000 },
+          items: 5
+        },
+        desktop: {
+          breakpoint: { max: 3000, min: 1024 },
+          items: 3
+        },
+        tablet: {
+          breakpoint: { max: 1024, min: 464 },
+          items: 2
+        },
+        mobile: {
+          breakpoint: { max: 464, min: 0 },
+          items: 1
+        }
+    }
     return <div>
         <Navbar/>
         <main className="aboutme">
             <section className="intro">
-                <img src={me} alt=""/>
+                <img src={me} alt="" loading="lazy"/>
                 <section className="aboutparagraph">
-                <p className="paragraph1">My name is Kareem Alameen, i am a front-end developer who focuses on writing clean, elegant, and efficient code. I embrace challenges as opportunities to hone my skills and expand my horizons. With each line of code, I strive to push boundaries and unlock new possibilities.
+                <h3>Who am i?</h3>
+                <p className="paragraph1">Hi, I'm Kareem Alameen, a Full Stack Developer passionate about crafting clean, efficient code that drives innovation and transforms ideas into reality. I see every challenge as an opportunity to grow and refine my craft
                 </p>
-                <p className="paragraph3">I have hands-on experience in full-stack web development, API integration, and security protocols. My skills include HTML5, CSS3, JavaScript (ES6+), Reactjs, Nodejs, Expressjs, MongoDB, and PostgreSQL. I bring a blend of technical proficiency and creativity, honed through professional projects.</p>
+                <p className="paragraph3">My tech stack includes:</p>
+                <ul className="stack">
+                    <li>Front-End: HTML5, CSS3, JavaScript (ES6+), React.js</li>
+                    <li>Back-End: Node.js, Express.js</li>
+                    <li>Databases: MongoDB, PostgreSQL</li>
+                    <li>Tools: Git, RESTful APIs, and more.</li>
+                </ul>
                 <p className="paragraph2">
-                Alongside my development expertise, I have a strong background in content creation, having strategically developed and executed impactful campaigns to enhance brand visibility and engagement. I have produced tutorial videos for YouTube channels, engaged with customers through various social media platforms, and created compelling blogs and website content.
+                    Beyond coding, I have a strong background in content strategy and digital engagement. I’ve produced tutorial videos, created engaging blogs, and executed campaigns to enhance brand visibility across platforms.
                 </p>
-                <p className="paragraph4">I'm eager to work, collaborate, learn from others, and contribute my unique perspective to the ever-evolving tech community.</p>
+                <p className="paragraph4">Let’s collaborate and build something exceptional!</p>
                 </section>
             </section>
-            <section className="skills_tools">
+            <section className="skills_tools_container">
+                <section className="skills_tools">
                 <h1>Skills & Tools</h1>
-                <div>
-                    <img src={image1} alt="" />
-                    <img src={image2} alt="" />
-                    <img src={image3} alt="" />
-                    <img src={image4} alt="" />
-                    <img src={image5} alt="" />
-                    <img src={image6} alt="" />
-                    <img src={image7} alt="" />
-                    <img src={image8} alt="" />
-                    <img src={image9} alt="" />
-                    <img src={image10} alt="" />
+                <div className="skill_img" data-aos="fade-up" data-aos-delay="500" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="center-bottom">
+                    <img src={image1} alt="html logo" title="HTML5"/>
+                    <img src={image2} alt="css logo" title="css"/>
+                    <img src={image3} alt="javascript logo" title="javascript"/>
+                    <img src={php} alt="javascript logo" title="php"/>
+                    <img src={image4} alt="j-query logo" title="j-query"/>
+                    <img src={image5} alt="react logo" title="react"/>
+                    <img src={nodejs} alt="node logo" title="node.js"/>
+                    <img src={express} alt="express logo" title="express.js"/>
+                    <img src={postgres} alt="postgres logo" title="postgres Db"/>
+                    <img src={mongodb} alt="mongo db logo" title="mongo db"/>
+                    <img src={figma} alt="figma logo" title="fimag"/>
+                    {viewMore && (
+                        <div data-aos="fade-up" data-aos-delay="50" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                    <img src={image10} alt="vs code logo" title="vs code" />
+                    <img src={jest} alt="jest logo" title="jest"/>
+                    <img src={react_test} alt="react-test logo" title="react-testing library"/>
+                    <img src={wordpress} alt="wordpress logo" title="wordpress"/>
+                    <img src={image6} alt="chrome logo" title="chrome"/>
+                    <img src={image7} alt="git logo" title="git"/>
+                    <img src={image8} alt="capcut logo" title="capcut"/>
+                    <img src={image9} alt="canva logo" title="canva"/>
+                    <img src={docker} alt="docker logo" title="docker"/>
+                    <img src={jira} alt="jira logo" title="jira"/>
+                    <img src={office} alt="office logo" title="office"/>
+                    <img src={google} alt="google logo" title="google"/>
+                        </div>
+                    )}
                 </div>
+                </section>
+                {viewMore?<button onClick={()=>setViewMore(false)} className="btn">Show Less</button>:<button onClick={()=>setViewMore(true)} className="btn">show More</button>}
             </section>
             <section className="experience">
                 <h2>Experience</h2>
-                <div id="logos">
-                    <figure>
-                        <img src={logo1} alt="" id="caleb"/>
-                        <figcaption>Caleb University <br/> B.Sc Computer SCience <br/> 2018-2022</figcaption>
-                    </figure>
-                    <figure>
-                        <img src={logo2}alt=""/>
-                        <figcaption>ZKTeco West Africa <br/>Communications and Content Manager <br/>2022-2023</figcaption>
-                    </figure>
-                    <figure>
-                        <img src={logo3} alt=""/>
-                        <figcaption>N.Y.S.C <br/> Youth Corper <br/>2022-2023</figcaption>
-                    </figure>
-                    <figure>
-                        <img src={logo4} alt=""/>
-                        <figcaption>Kreativstorm <br/>front-end Trainee<br/>2024</figcaption>
-                    </figure>
-                </div>
+                    <Carousel responsive={responsive} className="carousel" swipeable={true} infinite={true} minimumTouchDrag={10} autoPlay={true} autoPlaySpeed={2000} arrows={false}>
+                        <figure>
+                            <img src={logo1} alt="" id="caleb"/>
+                            <figcaption>Caleb University <br/> B.Sc Computer SCience <br/> 2018-2022</figcaption>
+                        </figure>
+                        <figure>
+                            <img src={logo2} alt=""/>
+                            <figcaption>ZKTeco West Africa <br/>Communications and Content Manager <br/>2022-2023</figcaption>
+                        </figure>
+                        <figure>
+                            <img src={logo3} alt=""/>
+                            <figcaption>N.Y.S.C <br/> Youth Corper <br/>2022-2023</figcaption>
+                        </figure>
+                        <figure>
+                            <img src={trent} alt="trent logo"/>
+                            <figcaption>Trent university <br/>M.sc Applied Modelling<br/>2024-2025</figcaption>
+                        </figure>
+                        <figure>
+                            <img src={logo4} alt="kreativstorm logo"/>
+                            <figcaption>Kreativstorm <br/>Front-end Trainee<br/>2024</figcaption>
+                        </figure>
+                        <figure>
+                            <img src={cysd} alt="cysd logo"/>
+                            <figcaption>CYSD cameroon <br/>Fullstack Developer Volunteer<br/>2024</figcaption>
+                        </figure>
+                        <figure>
+                            <img src={yuvoice} alt=""/>
+                            <figcaption>Yuvoice <br/>Wordpress Developer Volunteer<br/>2024</figcaption>
+                        </figure>
+                      </Carousel>;
+
             </section>
         </main>
         <Footer/>
