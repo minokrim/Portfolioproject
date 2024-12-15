@@ -2,12 +2,18 @@
   "version": 2,
   "builds": [
     {
-      "src": "client/package.json",
+      "src": "portfolio/package.json",  // Specify React app build
       "use": "@vercel/react"
     },
     {
-      "src": "api/index.js",
+      "src": "portfolio/api/index.js",  // Specify serverless function for the backend
       "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "portfolio/api/index.js"
     }
   ]
 }
