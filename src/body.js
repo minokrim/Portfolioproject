@@ -3,6 +3,9 @@ import "./css/body.css"
 import image from "./Assets/me4.jpg"
 import resume from "./Assets/Fullstack.pdf"
 import Typed from 'typed.js';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 function Body(){
     const el = React.useRef(null);
 

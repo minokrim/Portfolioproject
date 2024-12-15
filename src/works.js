@@ -8,6 +8,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 function Works(){
+    AOS.init();
     return<div>
         <main className="works">
             <p>Featured Projects</p>

@@ -1,26 +1,26 @@
 @font-face {
     font-family: "Roboto Regular";
-    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-Regular.ttf") format("truetype");
+    src: url(../Assets/Roboto/Roboto-Regular.ttf) format("truetype");
     font-weight: normal;
 }
 @font-face {
     font-family: "Roboto Extra Bold";
-    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-Bold.ttf") format("truetype");
+    src: url(../Assets/Roboto/Roboto-Bold.ttf) format("truetype");
     font-weight: normal;
 }
 @font-face {
     font-family: "Roboto Light Italic";
-    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-Italic.ttf") format("truetype");
+    src: url(../Assets/Roboto/Roboto-Italic.ttf) format("truetype");
     font-weight: normal;
 }
 @font-face {
     font-family: "Roboto Black Italic";
-    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-BlackItalic.ttf") format("truetype");
+    src: url(../Assets/Roboto/Roboto-Medium.ttf) format("truetype");
     font-weight: normal;
 }
 @font-face {
     font-family: "Roboto Thin Italic";
-    src: url("C:\Users\PC\Documents\Portfolio\portfolio\public\assets\Roboto\Roboto-ThinItalic.ttf") format("truetype");
+    src: url(../Assets/Roboto/Roboto-ThinItalic.ttf) format("truetype");
     font-weight: normal;
 }
 
