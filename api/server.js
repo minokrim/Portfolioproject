@@ -14,26 +14,28 @@ app.use(bodyparser.urlencoded({extended:true}))
 const { EMAIL_USER, EMAIL_PASS} = process.env;
 
 let transporter=nodemailer.createTransport({
-    service:'gmail',
+    host: "smtp.gmail.com",
+    port:465,
+    secure:true,
     auth:{
         user:EMAIL_USER,
         pass:EMAIL_PASS,
     }
 })
 
-app.post("/db/react",function(req,res){
+app.post("/db/react",async(req,res)=>{
     var fullname=req.body.fullname
     var email=req.body.email
     var message=req.body.message
     
-        let mailOptions={
+         let mailOptions={
             from:EMAIL_USER,
             to:"ayomidekareem563@gmail.com",
             subject:"Message from Portfolio",
             replyTo: email,
             text: `Dear alameen, \n\n${fullname} has sent the following message: \n\n${message} \n\nKind regards, \n${email}`,
         }
-        transporter.sendMail(mailOptions, function (error, info) {
+        await transporter.sendMail(mailOptions, function (error, info) {
             if (error) {
               console.log('Error occurred:', error);
               return res.status(500).json({ error: "Error sending email." });
