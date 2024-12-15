@@ -45,6 +45,9 @@ app.post("/db/react",function(req,res){
           });
     })
 
+    module.exports = (req, res) => {
+        res.status(200).json({ message: "Hello from Node.js on Vercel!" });
+      };
 
 
 app.listen(process.env.SERVER_PORT,function(){
