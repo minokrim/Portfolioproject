@@ -2,8 +2,7 @@ import express from "express";
 import bodyparser from "body-parser";
 import cors from "cors";
 import env from "dotenv";
-import nodemailer from "nodemailer"
-
+import nodemailer from "nodemailer";
 
 env.config();
 const app=express();
@@ -45,5 +44,7 @@ app.post("/db/react",function(req,res){
           });
     })
 
-    export default (req, res) => app(req, res);
+app.listen(5000,(req,res)=>{
+    console.log("server running")
+})
 
