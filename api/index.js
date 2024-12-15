@@ -46,7 +46,7 @@ app.post("/db/react",async(req,res)=>{
           });
     })
 
-app.listen(5000,(req,res)=>{
-    console.log("server running")
-})
+// app.listen(5000,(req,res)=>{
+//     console.log("server running")
+// })
 
