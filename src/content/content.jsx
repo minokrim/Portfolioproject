@@ -53,17 +53,17 @@ export default function Content(){
             <h2>VIDEOS</h2>
             <section className="videossec">
             <div className="framesec framsec1">
-            <iframe src="https://www.youtube.com/embed/XZnRISVYNi8?start=57" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="frame frame1"></iframe>
+            <iframe src="https://www.youtube.com/embed/XZnRISVYNi8?start=57" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="frame frame1" title="vid1"></iframe>
 
-            <iframe src="https://www.youtube.com/embed/1_u4fRBCc8Q?si=rDnV6XDQZLfEOkUD" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="frame frame2"></iframe>
+            <iframe src="https://www.youtube.com/embed/1_u4fRBCc8Q?si=rDnV6XDQZLfEOkUD" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="frame frame2" title="vid2"></iframe>
             </div>
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/1vJd3qFnnrs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="frame frame4"></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1vJd3qFnnrs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="frame frame4" title="vid3"></iframe>
 
             <div className="framesec framsec1">
-            <iframe src="https://www.youtube.com/embed/MpRFvoGLSwI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="frame frame5"></iframe>
+            <iframe src="https://www.youtube.com/embed/MpRFvoGLSwI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="frame frame5" title="vid4"></iframe>
 
-            <iframe src="https://www.youtube.com/embed/LJmin0wA24Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="frame frame3"></iframe>
+            <iframe src="https://www.youtube.com/embed/LJmin0wA24Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="frame frame3" title="vid5"></iframe>
             </div>
             </section>
         </section>

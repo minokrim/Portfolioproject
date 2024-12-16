@@ -40,9 +40,8 @@ import 'aos/dist/aos.css';
 
 function About(){
     const [viewMore,setViewMore]=useState(false)
-    function handleClick(){
+    AOS.init();
 
-    }
     const responsive = {
         superLargeDesktop: {
           breakpoint: { max: 4000, min: 3000 },

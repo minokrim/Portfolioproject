@@ -160,7 +160,7 @@ ul{
         display: flex;
         color: black;
         font-size: 2rem;
-        align-self: end;
+        align-self: flex-end;
         margin-right: 20px;
         font-weight: bolder;
         padding: 30px 10px 0 0;

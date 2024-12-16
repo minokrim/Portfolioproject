@@ -3,7 +3,6 @@ import Navbar from "./navbar";
 import Body from "./body";
 import Works from "./works";
 import Footer from "./footer";
-import About from "./about";
 function Home(){    
     return <div>
         <meta name="google-site-verification" content="Bhc8D1qu3xWBaIq_0uxW-3trUs9LhRkGvuqRxaVrZkI" />
