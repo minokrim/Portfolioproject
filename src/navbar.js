@@ -21,7 +21,7 @@ function Navbar(){
     
     return <div className="nav-border " >
         
-        <a href="/"><img src={image} alt="cartoon icon of dev"/></a>
+        <a href="#"><img src={image} alt="cartoon icon of dev"/></a>
         <FontAwesomeIcon icon={faBars} id="hamburger" onClick={open}/>
         <nav className={`nav ${burgermenu ? 'open' : ''}`}>
             <FontAwesomeIcon icon={faX} id="close-icon" onClick={close} />
