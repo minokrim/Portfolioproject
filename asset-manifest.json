@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolioproject/static/css/main.f01573d0.css",
-    "main.js": "/Portfolioproject/static/js/main.bab4a2e3.js",
-    "static/js/592.6d7de513.chunk.js": "/Portfolioproject/static/js/592.6d7de513.chunk.js",
+    "main.css": "/Portfolioproject/static/css/main.86a1a6e7.css",
+    "main.js": "/Portfolioproject/static/js/main.afa70d7f.js",
+    "static/js/453.ace21015.chunk.js": "/Portfolioproject/static/js/453.ace21015.chunk.js",
     "static/media/cysdl.png": "/Portfolioproject/static/media/cysdl.2cf29e396b7683281100.png",
     "static/media/p2.png": "/Portfolioproject/static/media/p2.b658065a95e2fbfc2c7b.png",
     "static/media/cysd1.png": "/Portfolioproject/static/media/cysd1.aa73cc2fa49b20fd6361.png",
@@ -30,12 +30,12 @@
     "static/media/port3.png": "/Portfolioproject/static/media/port3.57659baac67291f99226.png",
     "static/media/port6.JPG": "/Portfolioproject/static/media/port6.f616a05ffe287c09ba3a.JPG",
     "static/media/Canvalogo-removebg-preview.png": "/Portfolioproject/static/media/Canvalogo-removebg-preview.a0beb6358ca1a6d411ce.png",
-    "static/media/Fullstack.pdf": "/Portfolioproject/static/media/Fullstack.7c13b7e74a779ec97f6b.pdf",
     "static/media/port4.JPG": "/Portfolioproject/static/media/port4.995860d9ed90f7c12147.JPG",
     "static/media/ChromeLogo-removebg-preview.png": "/Portfolioproject/static/media/ChromeLogo-removebg-preview.5d08d5f1e00525936739.png",
     "static/media/csslogo-removebg-preview.png": "/Portfolioproject/static/media/csslogo-removebg-preview.71940ff962491fb83a7f.png",
     "static/media/htmllogo-removebg-preview.png": "/Portfolioproject/static/media/htmllogo-removebg-preview.6476de921167d0efccb4.png",
     "static/media/vscodelogo-removebg-preview.png": "/Portfolioproject/static/media/vscodelogo-removebg-preview.bd1551297184bee70b59.png",
+    "static/media/resume.pdf": "/Portfolioproject/static/media/resume.2adce7a0cb72cbc366ff.pdf",
     "static/media/jquerylogo-removebg-preview.png": "/Portfolioproject/static/media/jquerylogo-removebg-preview.6a9f09447c26c351c2e7.png",
     "static/media/phone-removebg-preview.png": "/Portfolioproject/static/media/phone-removebg-preview.b1bec477c089be141dec.png",
     "static/media/cysd.png": "/Portfolioproject/static/media/cysd.072cd400462d6de13289.png",
@@ -69,12 +69,12 @@
     "static/media/twitter.png": "/Portfolioproject/static/media/twitter.480d6b94e25315f13d96.png",
     "static/media/revicons.woff": "/Portfolioproject/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Portfolioproject/index.html",
-    "main.f01573d0.css.map": "/Portfolioproject/static/css/main.f01573d0.css.map",
-    "main.bab4a2e3.js.map": "/Portfolioproject/static/js/main.bab4a2e3.js.map",
-    "592.6d7de513.chunk.js.map": "/Portfolioproject/static/js/592.6d7de513.chunk.js.map"
+    "main.86a1a6e7.css.map": "/Portfolioproject/static/css/main.86a1a6e7.css.map",
+    "main.afa70d7f.js.map": "/Portfolioproject/static/js/main.afa70d7f.js.map",
+    "453.ace21015.chunk.js.map": "/Portfolioproject/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f01573d0.css",
-    "static/js/main.bab4a2e3.js"
+    "static/css/main.86a1a6e7.css",
+    "static/js/main.afa70d7f.js"
   ]
 }
