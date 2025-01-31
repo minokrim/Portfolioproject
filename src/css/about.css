@@ -115,9 +115,11 @@
 }
 .paragraph2{
     text-align: left;
+    margin-top: 1em;
 }
 .paragraph3{
     text-align: left;
+    margin-top: 1em;
 }
 .stack{
     display: flex;
@@ -131,6 +133,7 @@
 }
 .paragraph4{
     text-align: right;
+    margin-top: 1em;
 }
 
 .skills_tools img{
@@ -143,6 +146,7 @@
     background: linear-gradient(to bottom, #000000 0%, #0d0d0d 40%, #343434 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
     background-blend-mode: multiply;
     flex-direction: row-reverse;
+    width: 100%;
 }
 .experience h2{
     color: white;
@@ -169,47 +173,7 @@
     height: 100px;
 
 }
-/* @media screen and (max-width:1000px){
-    .aboutme{
-        width: 100%;
-        max-width: 1000px;
-    }
-    .aboutme .intro{
-        width: 100%;
-        justify-content: space-around;
-    }
-    .aboutme img{
-        width: auto;
-        height: 150px;
-    }
-    .skills_tools{
-        display: flex;
 
-    }
-    .experience{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    .experience h2{
-        width: 100%;
-    }
-    .experience div{
-        display: flex;
-    }
-    #logos{
-        display: flex;
-        width: 100%;
-        align-items: flex-start;
-        overflow: scroll;
-    }
-    .experience img{
-        width: auto;
-        height: 80px;
-    }
-} */
 @media screen and (max-width:1040px){
     .aboutme p{
         display: flex;
@@ -223,6 +187,7 @@
         height: 500px;
     }
 }
+
 @media screen and (max-width:660px){
     .aboutme{
         width: 100%;
@@ -251,15 +216,20 @@
     .aboutme ul{
         padding: 0 20px 20px 20px;
     }
-    
+    .skills_tools_container{
+        width: 100%;
+
+    }
     .skills_tools{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     .skills_tools h1{
         width: 100%;
         text-align: center;
-        height: 30px;
+        height: max-content;
+        margin-top: 0.5em;
     }
     .skills_tools div{
         align-items: center;
@@ -292,6 +262,7 @@
     }
     .experience h2{
         width: 100%;
+        margin-top: 0.5em;
     }
 
     #logos{
@@ -320,6 +291,16 @@
     .aboutparagraph h3{
         text-align: center;
         font-family: "Roboto Extra Bold";
+    }
+    .aboutparagraph{
+        font-size: 1em;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 1em;
+    }
+    .paragraph1{
+        text-align: center;
     }
     
 }

@@ -20,7 +20,7 @@ export default function Works(){
         <Navbar/>
         <section>
 
-        <section className="proj cysdProj" data-aos="fade-up" data-aos-delay="500" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+        <section className="proj cysdProj" data-aos="fade-up" data-aos-delay="500" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-testid="project">
         <div className="imgborder">
             <img src={p5} alt="" className="proj2img"/>
             </div>
@@ -40,7 +40,8 @@ I designed and developed a mission-driven landing page with a focus on encouragi
             </section>
             </div>
         </section>
-        <section className="proj1 proj" data-aos="fade-up" data-aos-delay="500" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+
+        <section className="proj1 proj" data-aos="fade-up" data-aos-delay="500" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-testid="project">
             <div className="imgborder">
             <img src={p2} alt="" className="proj1img" data-aos="flip-left"/>
             </div>
@@ -62,7 +63,7 @@ I designed and developed a mission-driven landing page with a focus on encouragi
             </div>
         </section>
 
-        <section className="proj2" data-aos="fade-up" data-aos-delay="500" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+        <section className="proj2" data-aos="fade-up" data-aos-delay="500" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-testid="project">
         <div className="imgborder">
             <img src={p3} alt="" className="proj2img"/>
             </div>
@@ -88,29 +89,7 @@ I designed and developed a mission-driven landing page with a focus on encouragi
             </div>
         </section>
 
-        {/* <section className="proj3">
-            <div className="imgborder">
-            <img src={p4} alt="" className="proj3img"/>
-            </div>
-            <div className="detailSec">
-                <h1>TO-DO LIST</h1>
-            <h3>
-            My to-do list application was developed using Node.js and EJS (Embedded JavaScript). This app simplifies task management with a clean and intuitive interface, designed to enhance productivity and organization. Powered by Node.js on the backend, the app ensures seamless data handling and real-time updates, making task management efficient and hassle-free. EJS templates facilitate dynamic content rendering, allowing users to add, edit, and delete tasks effortlessly.
-            </h3>
-            <section className="linksection">
-            <div className="visitLink">
-                <Link className="li" target="_blank">VISIT</Link>
-                <img src={arrow} alt="" className="linkimg"/>
-            </div>
-            <div className="visitLink">
-                <Link className="li" target="_blank" to="https://github.com/minokrim/todolist.git">GITHUB</Link>
-                <img src={git} alt="" className="linkimg"/>
-            </div>
-            </section>
-            </div>
-        </section> */}
-
-        <section className="proj storeProj" data-aos="fade-up" data-aos-delay="500" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+        <section className="proj storeProj" data-aos="fade-up" data-aos-delay="500" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-testid="project">
         <div className="imgborder">
             <img src={ecommerce} alt="" className="storeimg"/>
             </div>
@@ -131,7 +110,7 @@ I designed and developed a mission-driven landing page with a focus on encouragi
             </div>
         </section>
 
-        <section className="proj2" data-aos="fade-up" data-aos-delay="500" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+        <section className="proj2" data-aos="fade-up" data-aos-delay="500" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-testid="project">
         <div className="imgborder">
             <img src={restaurant} alt="" className="proj2img"/>
             </div>

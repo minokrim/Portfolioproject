@@ -67,7 +67,7 @@ function About(){
                 <img src={me} alt="" loading="lazy"/>
                 <section className="aboutparagraph">
                 <h3>Who am i?</h3>
-                <p className="paragraph1">Hi, I'm Kareem Alameen, a Full Stack Developer passionate about crafting clean, efficient code that drives innovation and transforms ideas into reality. I see every challenge as an opportunity to grow and refine my craft
+                <p className="paragraph1">I'm Kareem Alameen — a Software Engineer passionate about building scalable, efficient, and user-centric solutions.
                 </p>
                 <p className="paragraph3">My tech stack includes:</p>
                 <ul className="stack">
@@ -77,7 +77,7 @@ function About(){
                     <li>Tools: Git, RESTful APIs, and more.</li>
                 </ul>
                 <p className="paragraph2">
-                    Beyond coding, I have a strong background in content strategy and digital engagement. I’ve produced tutorial videos, created engaging blogs, and executed campaigns to enhance brand visibility across platforms.
+                Beyond development, I have a strong foundation in content strategy and digital engagement, producing technical tutorials, writing insightful blogs, and driving impactful campaigns to enhance online presence.
                 </p>
                 <p className="paragraph4">Let’s collaborate and build something exceptional!</p>
                 </section>
@@ -85,7 +85,7 @@ function About(){
             <section className="skills_tools_container">
                 <section className="skills_tools">
                 <h1>Skills & Tools</h1>
-                <div className="skill_img" data-aos="fade-up" data-aos-delay="500" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="center-bottom">
+                <div className="skill_img">
                     <img src={image1} alt="html logo" title="HTML5"/>
                     <img src={image2} alt="css logo" title="css"/>
                     <img src={image3} alt="javascript logo" title="javascript"/>
@@ -98,7 +98,7 @@ function About(){
                     <img src={mongodb} alt="mongo db logo" title="mongo db"/>
                     <img src={figma} alt="figma logo" title="fimag"/>
                     {viewMore && (
-                        <div data-aos="fade-up" data-aos-delay="50" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                    <div>
                     <img src={image10} alt="vs code logo" title="vs code" />
                     <img src={jest} alt="jest logo" title="jest"/>
                     <img src={react_test} alt="react-test logo" title="react-testing library"/>
