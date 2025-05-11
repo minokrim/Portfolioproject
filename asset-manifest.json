@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolioproject/static/css/main.86a1a6e7.css",
-    "main.js": "/Portfolioproject/static/js/main.afa70d7f.js",
+    "main.css": "/Portfolioproject/static/css/main.5c95ba6a.css",
+    "main.js": "/Portfolioproject/static/js/main.9a7c9dee.js",
     "static/js/453.ace21015.chunk.js": "/Portfolioproject/static/js/453.ace21015.chunk.js",
     "static/media/cysdl.png": "/Portfolioproject/static/media/cysdl.2cf29e396b7683281100.png",
     "static/media/p2.png": "/Portfolioproject/static/media/p2.b658065a95e2fbfc2c7b.png",
@@ -10,6 +10,7 @@
     "static/media/restaurant2.png": "/Portfolioproject/static/media/restaurant2.9354caa6ae873130ce83.png",
     "static/media/me.jpg": "/Portfolioproject/static/media/me.8a9c514fd820b097789d.jpg",
     "static/media/ecommerce2.png": "/Portfolioproject/static/media/ecommerce2.4cbe09ecb5609270048f.png",
+    "static/media/juice2.png": "/Portfolioproject/static/media/juice2.015e408158f750e993a5.png",
     "static/media/p3.png": "/Portfolioproject/static/media/p3.84e9cc89c71bacff3a14.png",
     "static/media/roadmap.jpg": "/Portfolioproject/static/media/roadmap.7f26604e690c5f3b4a73.jpg",
     "static/media/me4.jpg": "/Portfolioproject/static/media/me4.002a7ef8b63b88192a9d.jpg",
@@ -35,7 +36,6 @@
     "static/media/csslogo-removebg-preview.png": "/Portfolioproject/static/media/csslogo-removebg-preview.71940ff962491fb83a7f.png",
     "static/media/htmllogo-removebg-preview.png": "/Portfolioproject/static/media/htmllogo-removebg-preview.6476de921167d0efccb4.png",
     "static/media/vscodelogo-removebg-preview.png": "/Portfolioproject/static/media/vscodelogo-removebg-preview.bd1551297184bee70b59.png",
-    "static/media/resume.pdf": "/Portfolioproject/static/media/resume.2adce7a0cb72cbc366ff.pdf",
     "static/media/jquerylogo-removebg-preview.png": "/Portfolioproject/static/media/jquerylogo-removebg-preview.6a9f09447c26c351c2e7.png",
     "static/media/phone-removebg-preview.png": "/Portfolioproject/static/media/phone-removebg-preview.b1bec477c089be141dec.png",
     "static/media/cysd.png": "/Portfolioproject/static/media/cysd.072cd400462d6de13289.png",
@@ -44,6 +44,7 @@
     "static/media/php.png": "/Portfolioproject/static/media/php.ef691045ada5253abf19.png",
     "static/media/kreativstorm_logo-removebg-preview.png": "/Portfolioproject/static/media/kreativstorm_logo-removebg-preview.663aed2934a432e39a82.png",
     "static/media/githublogo-removebg-preview.png": "/Portfolioproject/static/media/githublogo-removebg-preview.e092bd0572db205b1373.png",
+    "static/media/resume2.pdf": "/Portfolioproject/static/media/resume2.0aa8c5e1567722ad786e.pdf",
     "static/media/trent.png": "/Portfolioproject/static/media/trent.c3503ec603557f94d600.png",
     "static/media/jira.png": "/Portfolioproject/static/media/jira.7f45ef9c2b8a7529e8c7.png",
     "static/media/monodb.png": "/Portfolioproject/static/media/monodb.7c6b5b02f4eb3344abd2.png",
@@ -69,12 +70,12 @@
     "static/media/twitter.png": "/Portfolioproject/static/media/twitter.480d6b94e25315f13d96.png",
     "static/media/revicons.woff": "/Portfolioproject/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Portfolioproject/index.html",
-    "main.86a1a6e7.css.map": "/Portfolioproject/static/css/main.86a1a6e7.css.map",
-    "main.afa70d7f.js.map": "/Portfolioproject/static/js/main.afa70d7f.js.map",
+    "main.5c95ba6a.css.map": "/Portfolioproject/static/css/main.5c95ba6a.css.map",
+    "main.9a7c9dee.js.map": "/Portfolioproject/static/js/main.9a7c9dee.js.map",
     "453.ace21015.chunk.js.map": "/Portfolioproject/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86a1a6e7.css",
-    "static/js/main.afa70d7f.js"
+    "static/css/main.5c95ba6a.css",
+    "static/js/main.9a7c9dee.js"
   ]
 }
