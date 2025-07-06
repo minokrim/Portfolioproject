@@ -72,7 +72,7 @@ function Contact(){
             </section>
             <section className="my_details">
                 <h2>Contact Details</h2>
-                <h3><img src={c1} alt=""/>Peterborough On</h3>
+                <h3><img src={c1} alt=""/>Toronto On</h3>
                 <h3><img src={c2} alt=""/>ayomidekareem563@gmail.com</h3>
                 <h3><img src={c3} alt=""/>+1-705-313-3017</h3>
             </section>

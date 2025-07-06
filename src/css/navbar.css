@@ -29,8 +29,9 @@
     height: 90px;
 }
 .nav-border img{
-    width: auto;
-    height: 70px;
+    width: 5em;
+    height: auto;
+    border: none;
     margin-left: 20px;
 }
 #hamburger{
@@ -173,6 +174,10 @@ ul{
         background-color: #090909;
         color: white;
         border: none;
+      }
+      .nav-border img{
+        width: 4em;
+        height: 4em;
       }
 
 }

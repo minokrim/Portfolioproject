@@ -1,8 +1,8 @@
 import React from "react"
 import "./css/works.css"
-import image1 from "./Assets/cysd1.png"
-import p2 from "./Assets/p2.png"
-import p3 from "./Assets/ecommerce2.png"
+import image1 from "./Assets/unidocsport.webp"
+import p2 from "./Assets/contentsumm.webp"
+import p3 from "./Assets/voice.webp"
 import { Link } from "react-router-dom"
 import AOS from 'aos';
 import 'aos/dist/aos.css';

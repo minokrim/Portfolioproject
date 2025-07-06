@@ -34,7 +34,6 @@ main{
     width: 50%;
     align-items: center;
     justify-content: center;
-
 }
 .sec1 button{
     width: 100px;
@@ -62,6 +61,7 @@ main{
     margin-bottom: 25px;
     z-index: 0;
     bottom: 60px;
+    object-fit: cover;
 }
 main h1{
     font-family: "Roboto Extra Bold";
@@ -71,7 +71,7 @@ main h1{
 }
 
 
-@media screen and (max-width:600px){
+@media screen and (max-width:660px){
     main{
         display: flex;
         flex-direction: column;
@@ -121,7 +121,7 @@ main h1{
         padding: 0;
     }
     .sec1 h1{
-        width: 100%;
+        width: 90%;
     }
     .sec2{
         width: 100%;

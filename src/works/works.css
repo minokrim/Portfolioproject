@@ -1,6 +1,13 @@
 .workBody{
     background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
+.projContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .proj{
     display: flex;
     gap: 100px;
@@ -8,6 +15,7 @@
     margin-top: 50px;
     padding: 10px;
     color: white;
+    width: 90%;
 }
 .imgborder{
     border: 5px solid #e5e7eb;

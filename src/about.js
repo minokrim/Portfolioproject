@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Footer from "./footer";
 import Navbar from "./navbar";
-import me from "./Assets/me.jpg"
+import me from "./Assets/me2.webp"
 import image1 from "./Assets/htmllogo-removebg-preview.png"
 import image2 from "./Assets/csslogo-removebg-preview.png"
 import image3 from "./Assets/JavaScriptlogo.png"
@@ -64,17 +64,18 @@ function About(){
         <Navbar/>
         <main className="aboutme">
             <section className="intro">
-                <img src={me} alt="" loading="lazy"/>
+                <img src={me} alt="" fetchPriority="high"/>
                 <section className="aboutparagraph">
                 <h3>Who am i?</h3>
                 <p className="paragraph1">I'm Kareem Alameen — a Software Engineer passionate about building scalable, efficient, and user-centric solutions.
                 </p>
                 <p className="paragraph3">My tech stack includes:</p>
                 <ul className="stack">
-                    <li>Front-End: HTML5, CSS3, JavaScript (ES6+), React.js</li>
-                    <li>Back-End: Node.js, Express.js</li>
+                    <li>Front-End:  JavaScript (ES6+), TypeScript, React, Tailwind CSS</li>
+                    <li>Back-End: Node.js</li>
                     <li>Databases: MongoDB, PostgreSQL</li>
-                    <li>Tools: Git, RESTful APIs, and more.</li>
+                    <li>Tools: GitHub, Docker, RESTful APIs, Postman</li>
+                    <li>Testing: Jest</li>
                 </ul>
                 <p className="paragraph2">
                 Beyond development, I have a strong foundation in content strategy and digital engagement, producing technical tutorials, writing insightful blogs, and driving impactful campaigns to enhance online presence.
@@ -115,37 +116,40 @@ function About(){
                     )}
                 </div>
                 </section>
-                {viewMore?<button onClick={()=>setViewMore(false)} className="btn">Show Less</button>:<button onClick={()=>setViewMore(true)} className="btn">show More</button>}
+
+                <section className="btn-cont">
+                    {viewMore?<button onClick={()=>setViewMore(false)} className="btn">Show Less</button>:<button onClick={()=>setViewMore(true)} className="btn">show More</button>}
+                </section>
             </section>
             <section className="experience">
                 <h2>Experience</h2>
                     <Carousel responsive={responsive} className="carousel" swipeable={true} infinite={true} minimumTouchDrag={10} autoPlay={true} autoPlaySpeed={2000} arrows={false}>
                         <figure>
-                            <img src={logo1} alt="" id="caleb"/>
+                            <img src={logo1} alt="caleb" id="caleb" loading="lazy"/>
                             <figcaption>Caleb University <br/> B.Sc Computer SCience <br/> 2018-2022</figcaption>
                         </figure>
                         <figure>
-                            <img src={logo2} alt=""/>
+                            <img src={logo2} alt="zkteco" loading="lazy"/>
                             <figcaption>ZKTeco West Africa <br/>Communications and Content Manager <br/>2022-2023</figcaption>
                         </figure>
                         <figure>
-                            <img src={logo3} alt=""/>
+                            <img src={logo3} alt="nysc" loading="lazy"/>
                             <figcaption>N.Y.S.C <br/> Youth Corper <br/>2022-2023</figcaption>
                         </figure>
                         <figure>
-                            <img src={trent} alt="trent logo"/>
+                            <img src={trent} alt="trent" loading="lazy"/>
                             <figcaption>Trent university <br/>M.sc Applied Modelling<br/>2024-2025</figcaption>
                         </figure>
                         <figure>
-                            <img src={logo4} alt="kreativstorm logo"/>
+                            <img src={logo4} alt="kreativstorm" loading="lazy"/>
                             <figcaption>Kreativstorm <br/>Front-end Trainee<br/>2024</figcaption>
                         </figure>
                         <figure>
-                            <img src={cysd} alt="cysd logo"/>
+                            <img src={cysd} alt="cysd " loading="lazy"/>
                             <figcaption>CYSD cameroon <br/>Fullstack Developer Volunteer<br/>2024</figcaption>
                         </figure>
                         <figure>
-                            <img src={yuvoice} alt=""/>
+                            <img src={yuvoice} alt="yuvoice" loading="lazy"/>
                             <figcaption>Yuvoice <br/>Wordpress Developer Volunteer<br/>2024</figcaption>
                         </figure>
                       </Carousel>;

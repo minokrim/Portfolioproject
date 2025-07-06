@@ -28,13 +28,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 .aboutme{
     width: 100%;
-    background: linear-gradient(to bottom, #000000 0%, #0d0d0d 40%, #343434 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-color: #e5e7eb;
     background-blend-mode: multiply;
     display: flex;
     flex-direction: column;
+    columns: black;
 }
 
 .aboutme .intro{
@@ -55,22 +57,32 @@
     font-family: "Roboto Light Italic";
     font-weight: lighter;
     font-size: 1.2rem;
-    color: white;
+    color: black;
     align-items: center;
     line-height: 30px;
 }
 .skills_tools_container{
     display: flex;
+    align-items: center;
     flex-direction: column;
-    background-color: #e5e7eb;
+    background-color: rgba(116, 116, 117, 0.5);
+    width: 95%;
+    border-radius: 5em;
+    margin: 3em 0 3em 0;
 }
 .skills_tools{
     display: flex;
-    background-color: #e5e7eb;
+}
+.btn-cont{
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 2em;
 }
 .btn{
     display: flex;
-    width: 10em;
+    width: 8em;
     background-color: black;
     color: white;
     font-size: 2em;
@@ -78,7 +90,6 @@
     justify-content: center;
     border-radius: 10px;
     margin-bottom: 10px;
-    margin-right: 10px;
     transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
     box-shadow: 0 5px #666;
     border: none;
@@ -101,9 +112,11 @@
     flex-direction: column;
     gap: 10px;
     font-size: 1.5em;
+    color: black;
+
 }
 .aboutparagraph h3{
-    color: white;
+    color: black;
     text-align: right;
     font-size: 2.5em;
     font-family: "Roboto Extra Bold";
@@ -111,23 +124,29 @@
 .paragraph1{
     text-align: left;
     font-family: "Roboto Light Italic";
+        color: black;
 
 }
 .paragraph2{
     text-align: left;
     margin-top: 1em;
+        color: black;
+
 }
 .paragraph3{
     text-align: left;
     margin-top: 1em;
+    color: black;
+
 }
 .stack{
     display: flex;
     flex-direction: column;
-    color: white;
+    color: black;
     text-align: left;
     list-style: circle;
     font-family: "Roboto Light Italic";
+    font-weight: 600;
     gap: 10px;
     font-size: 0.9em;
 }
@@ -143,10 +162,18 @@
 .experience{
     display: flex;
     padding: 20px;
-    background: linear-gradient(to bottom, #000000 0%, #0d0d0d 40%, #343434 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
     background-blend-mode: multiply;
     flex-direction: row-reverse;
     width: 100%;
+}
+figure{
+    background-color: rgb(14, 14, 50);
+    height: 25em;
+    width: 90%;
+    border-radius: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .experience h2{
     color: white;
@@ -159,6 +186,10 @@
 }
 .carousel{
     width: 100%;
+    display: flex;
+    padding: 2em;
+    justify-content: space-between;
+    gap: 5em;
 }
 .experience div{
     display: flex;
@@ -170,7 +201,8 @@
 }
 .experience img{
     width: auto;
-    height: 100px;
+    height: auto;
+    box-sizing: border-box;
 
 }
 
@@ -218,7 +250,6 @@
     }
     .skills_tools_container{
         width: 100%;
-
     }
     .skills_tools{
         display: flex;

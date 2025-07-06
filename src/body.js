@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./css/body.css"
-import image from "./Assets/me4.jpg"
-import resume from "./Assets/resume.pdf"
+import image from "./Assets/profimage.webp"
+import resume from "./Assets/Resume1.pdf"
 import Typed from 'typed.js';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -33,11 +33,11 @@ function Body(){
     return <div className="w-[100vh] border border-solid border-red-600">
         <main>
             <section className="sec1">
-              <h1 ref={el} ></h1>
-              <a href={resume} download={"resume.pdf"} target="_blank" rel="noopener noreferrer"><button>Download CV</button></a>
+              <h1 ref={el}></h1>
+              <a href={resume} download={"Kareem Alameen's Resume.pdf"} target="_blank" rel="noopener noreferrer"><button>Download CV</button></a>
             </section>
-            <section className="sec2 bg-red-600">
-              <a href="ALAMEEN HEADSHOT"><img src= {image} alt=""/></a>
+            <section className="sec2">
+            <img src= {image} alt="proffesional-picture"/>
             </section>
             
         </main>
