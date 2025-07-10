@@ -49,14 +49,16 @@
 #img1{
     transition-duration: 2s;
     transition-delay: 0.2s;
+    width: auto;
+    height: 18rem;
 }
 #img1:hover{
     rotate: 1deg;
 }
 #img2{
     rotate: -15deg;
-    width: 400px;
-    height: 300px;
+    width: auto;
+    height: 18rem;
     transition-duration: 2s;
     transition-delay: 0.2s;
 }
@@ -65,8 +67,8 @@
 }
 #img3{
     rotate: 5deg;
-    width: 350px;
-    height: 300px;
+    width: auto;
+    height: 18rem;
     transition-duration: 2s;
     transition-delay: 0.2s;
 }

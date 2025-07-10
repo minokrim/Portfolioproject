@@ -55,12 +55,10 @@ main{
 .sec2 img{
     position: relative;
     width: auto;
-    height: 450px;
+    height: 30rem;
     border-radius: 10px;
     rotate: 5deg;
-    margin-bottom: 25px;
     z-index: 0;
-    bottom: 60px;
     object-fit: cover;
 }
 main h1{
