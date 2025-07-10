@@ -69,7 +69,16 @@ main h1{
     font-size: 2rem;
     height: 150px;
 }
-
+@media screen and (max-width:770px){
+    main{
+        width: 100%;
+        padding-top: 3em;
+    }
+    .sec2 img{
+        width: auto;
+        height: 20rem;
+    }
+}
 
 @media screen and (max-width:660px){
     main{
@@ -77,48 +86,33 @@ main h1{
         flex-direction: column;
         width: 100%;
     }
-
     .sec1{
         display: flex;
         width: 100%;
         align-items: center;
+        padding: 0;
     }
-    main h1{
+    .sec1 button{
+        margin-top: 25px;
+    }
+        main h1{
         height: 5em;
         display: flex;
         align-items: center;
         justify-content: center;
 
     }
-    .sec2 img{
-        width: auto;
-        width: 30px;
-        rotate: 0deg;
-        margin-top: 50px;
-    }
-    .sec2{
+        .sec2{
         display: flex;
         align-items: center;
         width: 100%;
         padding-top: 20;
     }
-    .sec1 button{
-        margin-top: 25px;
-    }
-}
-
-@media screen and (max-width:1000px){
-    main{
-        display: flex;
-        width: 100%;
-    }
     .sec2 img{
     width: auto;
     height: 200px;
-    }
-    .sec1{
-        width: 100%;
-        padding: 0;
+        rotate: 0deg;
+        margin-top: 50px;
     }
     .sec1 h1{
         width: 90%;

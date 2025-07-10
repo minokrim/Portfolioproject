@@ -39,15 +39,15 @@
     columns: black;
 }
 
-.aboutme .intro{
+.intro{
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 90%;
     align-items: center;
 }
 .aboutme img{
     max-width: auto;
-    height: 500px;
+    height: 35rem;
     border-radius: 10px;
     margin: 50px;
 }
@@ -154,16 +154,13 @@
     margin-top: 1em;
 }
 
-.skill_img{
-
-}
 .skills_tools img{
     width: auto;
-    height: 80px;
+    height: 5rem;
 }
 .experience{
     display: flex;
-    padding: 20px;
+    padding: 2em;
     background-blend-mode: multiply;
     flex-direction: row-reverse;
     width: 100%;
@@ -178,7 +175,7 @@ figure{
     justify-content: space-around;
 }
 .experience h2{
-    color: white;
+    color: black;
     font-family: "Roboto Thin Italic";
     font-weight: bolder;
     font-size: 3rem;
@@ -208,7 +205,10 @@ figure{
 
 }
 
-@media screen and (max-width:1040px){
+@media screen and (max-width:770px){
+    .intro{
+        flex-direction: column;
+    }
     .aboutme p{
         display: flex;
         text-align: start;
@@ -219,6 +219,10 @@ figure{
     .aboutme .intro img{
         width: auto;
         height: 500px;
+    }
+    .skill_img>img{
+        width: auto;
+        height: 3em;
     }
 }
 
@@ -273,21 +277,13 @@ figure{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 90%;
+        width: 100%;
     }
     .skill_img>img{
         width: auto;
         height: 3em;
     }
 
-    .skills_tools div :nth-child(6){
-        width: auto;
-        height: 100px;
-    }
-    .skills_tools div :nth-child(9){
-        width: auto;
-        height: 110px;
-    }
     .btn{
         width: 70%;
         align-self: center;
@@ -343,6 +339,8 @@ figure{
     }
     .carousel{
         align-items: center;
+        padding: 1em;
+        gap: 0em;
     }
     
 }

@@ -124,6 +124,7 @@ h3{
 @media screen and (max-width:770px){
     .proj{
         display: flex;
+        flex-direction: column;
         gap: 50px;
     }
     .proj2{
@@ -136,6 +137,9 @@ h3{
     }
     .proj2 h1{
         margin-left: 5px;
+    }
+    .imgborder{
+        width: 65%;
     }
 }
 @media screen and (max-width:600px){

@@ -14,13 +14,13 @@ function Works(){
             <p>Featured Projects</p>
             <section className="sec-1">
                 <Link to="/Works">
-                <div data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"><img src={image1} alt="" id="img1"/></div>
+                <div data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"><img src={image1} alt="" id="img1" className="img"/></div>
                 </Link>
                 <Link to="/Works">
-                <div data-aos="fade-down" data-aos-delay="200" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"><img src={p2} alt="" id="img2"/></div>
+                <div data-aos="fade-down" data-aos-delay="200" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"><img src={p2} alt="" id="img2" className="img"/></div>
                 </Link>
                 <Link to="/Works">
-                <div data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"><img src={p3} alt=""id="img3"/></div>
+                <div data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"><img src={p3} alt=""id="img3" className="img"/></div>
                 </Link>
             </section>
             <section className="sec-2">

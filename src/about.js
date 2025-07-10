@@ -5,20 +5,14 @@ import me from "./Assets/me2.webp"
 import image1 from "./Assets/htmllogo-removebg-preview.png"
 import image2 from "./Assets/csslogo-removebg-preview.png"
 import image3 from "./Assets/JavaScriptlogo.png"
-import image4 from "./Assets/jquerylogo-removebg-preview.png"
 import image5 from "./Assets/reactlogo-removebg-preview.png"
-import image6 from "./Assets/ChromeLogo-removebg-preview.png"
 import image7 from "./Assets/githublogo-removebg-preview.png"
-import image8 from "./Assets/capcutlogo-removebg-preview.png"
-import image9 from "./Assets/Canvalogo-removebg-preview.png"
 import image10 from "./Assets/vscodelogo-removebg-preview.png"
 import logo1 from "./Assets/caleb-university-logo101485-new-removebg-preview.png"
 import logo2 from "./Assets/zkteco_logo-removebg-preview.png"
 import logo3 from "./Assets/NYSC_LOGO.svg-removebg-preview.png"
 import logo4 from "./Assets/kreativstorm_logo-removebg-preview.png"
 import mongodb from "./Assets/monodb.png"
-import express from "./Assets/express.png"
-import figma from "./Assets/figma.png"
 import docker from "./Assets/docker.png"
 import jest from "./Assets/jest.png"
 import react_test from "./Assets/react-test.png";
@@ -26,9 +20,6 @@ import wordpress from "./Assets/wordpress.png"
 import postgres from "./Assets/postgres.png"
 import nodejs from "./Assets/nodejs.png"
 import jira from "./Assets/jira.png"
-import office from "./Assets/office.png"
-import google from "./Assets/google.png"
-import php from "./Assets/php.png"
 import trent from "./Assets/trent.png"
 import cysd from "./Assets/cysd.png"
 import yuvoice from "./Assets/yuvoice.png"
@@ -67,15 +58,15 @@ function About(){
                 <img src={me} alt="" fetchPriority="high"/>
                 <section className="aboutparagraph">
                 <h3>Who am i?</h3>
-                <p className="paragraph1">I'm Kareem Alameen — a Software Engineer passionate about building scalable, efficient, and user-centric solutions.
+                <p className="paragraph1">I'm Kareem Alameen, a Software Engineer passionate about building scalable, efficient, and user-centric solutions.
                 </p>
+                <p className="paragraph1">What sets me apart is not just my ability to write efficient, testable code, but my obsession with creating seamless user experiences and solving problems that matter. I thrive in fast-paced environments, collaborate well across cross-functional teams, and I’m always learning, whether it's a new framework, design principle, or a way to write cleaner, more expressive code.</p>
                 <p className="paragraph3">My tech stack includes:</p>
                 <ul className="stack">
                     <li>Front-End:  JavaScript (ES6+), TypeScript, React, Tailwind CSS</li>
                     <li>Back-End: Node.js</li>
                     <li>Databases: MongoDB, PostgreSQL</li>
-                    <li>Tools: GitHub, Docker, RESTful APIs, Postman</li>
-                    <li>Testing: Jest</li>
+                    <li>Tools: GitHub, Docker, RESTful APIs, Jest</li>
                 </ul>
                 <p className="paragraph2">
                 Beyond development, I have a strong foundation in content strategy and digital engagement, producing technical tutorials, writing insightful blogs, and driving impactful campaigns to enhance online presence.
@@ -90,36 +81,23 @@ function About(){
                     <img src={image1} alt="html logo" title="HTML5"/>
                     <img src={image2} alt="css logo" title="css"/>
                     <img src={image3} alt="javascript logo" title="javascript"/>
-                    <img src={php} alt="javascript logo" title="php"/>
-                    <img src={image4} alt="j-query logo" title="j-query"/>
                     <img src={image5} alt="react logo" title="react"/>
                     <img src={nodejs} alt="node logo" title="node.js"/>
-                    <img src={express} alt="express logo" title="express.js"/>
                     <img src={postgres} alt="postgres logo" title="postgres Db"/>
                     <img src={mongodb} alt="mongo db logo" title="mongo db"/>
-                    <img src={figma} alt="figma logo" title="fimag"/>
-                    {viewMore && (
+
                     <div>
                     <img src={image10} alt="vs code logo" title="vs code" />
                     <img src={jest} alt="jest logo" title="jest"/>
                     <img src={react_test} alt="react-test logo" title="react-testing library"/>
                     <img src={wordpress} alt="wordpress logo" title="wordpress"/>
-                    <img src={image6} alt="chrome logo" title="chrome"/>
                     <img src={image7} alt="git logo" title="git"/>
-                    <img src={image8} alt="capcut logo" title="capcut"/>
-                    <img src={image9} alt="canva logo" title="canva"/>
                     <img src={docker} alt="docker logo" title="docker"/>
                     <img src={jira} alt="jira logo" title="jira"/>
-                    <img src={office} alt="office logo" title="office"/>
-                    <img src={google} alt="google logo" title="google"/>
                         </div>
-                    )}
                 </div>
                 </section>
 
-                <section className="btn-cont">
-                    {viewMore?<button onClick={()=>setViewMore(false)} className="btn">Show Less</button>:<button onClick={()=>setViewMore(true)} className="btn">show More</button>}
-                </section>
             </section>
             <section className="experience">
                 <h2>Experience</h2>
