@@ -1,13 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.b368b1ba.css",
-    "main.js": "/static/js/main.3f007753.js",
-    "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
+    "main.css": "/static/css/main.67c7c845.css",
+    "main.js": "/static/js/main.e87ce211.js",
+    "static/js/453.5d79306b.chunk.js": "/static/js/453.5d79306b.chunk.js",
     "static/media/cysdl.png": "/static/media/cysdl.2cf29e396b7683281100.png",
     "static/media/p2.png": "/static/media/p2.b658065a95e2fbfc2c7b.png",
+    "static/media/anime3.png": "/static/media/anime3.649f13714ac5be5a7a2a.png",
+    "static/media/anime2.png": "/static/media/anime2.5de372bdcda2a762ad53.png",
     "static/media/ecommerce1.png": "/static/media/ecommerce1.cfe29d805493f8d7df36.png",
+    "static/media/cysdcam5.png": "/static/media/cysdcam5.986fb3d29b3995c7083b.png",
+    "static/media/anime4.png": "/static/media/anime4.9be38120692250fd82c2.png",
     "static/media/juice2.png": "/static/media/juice2.015e408158f750e993a5.png",
+    "static/media/zendest4.png": "/static/media/zendest4.bc8d93b78e9ff35c223f.png",
+    "static/media/cysdcam2.png": "/static/media/cysdcam2.d92db8b3be4733b1ef24.png",
+    "static/media/cysdcam4.png": "/static/media/cysdcam4.603783cbb23eb5ebf577.png",
+    "static/media/zendest3.png": "/static/media/zendest3.519bd72249817131f0dd.png",
     "static/media/roadmap.jpg": "/static/media/roadmap.7f26604e690c5f3b4a73.jpg",
+    "static/media/zendest2.png": "/static/media/zendest2.3915f1edddbcc9167a92.png",
+    "static/media/contsumm2.png": "/static/media/contsumm2.bfafb86cb52bf51bf14d.png",
     "static/media/NYSC_LOGO.svg-removebg-preview.png": "/static/media/NYSC_LOGO.svg-removebg-preview.b94bf641dc6a77bcc60f.png",
     "static/media/caleb-university-logo101485-new-removebg-preview.png": "/static/media/caleb-university-logo101485-new-removebg-preview.f26dc2edfc79d9ec6f30.png",
     "static/media/profimage.webp": "/static/media/profimage.5da956b87e06bbc3d744.webp",
@@ -22,9 +32,10 @@
     "static/media/port5.JPG": "/static/media/port5.5a9b6afbc34da8bf7d57.JPG",
     "static/media/port8.jpg": "/static/media/port8.607c7762b08a5530d2f8.jpg",
     "static/media/reactlogo-removebg-preview.png": "/static/media/reactlogo-removebg-preview.0e34e8bf12fb0f694a64.png",
+    "static/media/cysdcam3.png": "/static/media/cysdcam3.8dd1e6b72f3689b5f1f8.png",
     "static/media/port3.png": "/static/media/port3.57659baac67291f99226.png",
+    "static/media/RESUME.pdf": "/static/media/RESUME.83e8eca73a61867b8da8.pdf",
     "static/media/voice.webp": "/static/media/voice.ad29994833961310eb15.webp",
-    "static/media/Resume1.pdf": "/static/media/Resume1.05deba13e6451b2b7949.pdf",
     "static/media/port6.JPG": "/static/media/port6.f616a05ffe287c09ba3a.JPG",
     "static/media/logo2.png": "/static/media/logo2.b47de68951b57acd4e34.png",
     "static/media/port4.JPG": "/static/media/port4.995860d9ed90f7c12147.JPG",
@@ -40,8 +51,11 @@
     "static/media/contentsumm.webp": "/static/media/contentsumm.4aba2f7d3c0b7ecf490a.webp",
     "static/media/kreativstorm_logo-removebg-preview.png": "/static/media/kreativstorm_logo-removebg-preview.663aed2934a432e39a82.png",
     "static/media/githublogo-removebg-preview.png": "/static/media/githublogo-removebg-preview.e092bd0572db205b1373.png",
+    "static/media/contsumm3.jpg": "/static/media/contsumm3.dda7657eb32d9886aa7f.jpg",
+    "static/media/unidocs3.png": "/static/media/unidocs3.053842f6dd85df39446d.png",
     "static/media/trent.png": "/static/media/trent.c3503ec603557f94d600.png",
     "static/media/jira.png": "/static/media/jira.7f45ef9c2b8a7529e8c7.png",
+    "static/media/unidocs2.png": "/static/media/unidocs2.375b4b68401b1af65699.png",
     "static/media/monodb.png": "/static/media/monodb.7c6b5b02f4eb3344abd2.png",
     "static/media/port1.JPG": "/static/media/port1.e0b3f84459850b7ea226.JPG",
     "static/media/nodejs.png": "/static/media/nodejs.2d4082077fde7184e6eb.png",
@@ -60,12 +74,12 @@
     "static/media/twitter.png": "/static/media/twitter.480d6b94e25315f13d96.png",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.b368b1ba.css.map": "/static/css/main.b368b1ba.css.map",
-    "main.3f007753.js.map": "/static/js/main.3f007753.js.map",
-    "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
+    "main.67c7c845.css.map": "/static/css/main.67c7c845.css.map",
+    "main.e87ce211.js.map": "/static/js/main.e87ce211.js.map",
+    "453.5d79306b.chunk.js.map": "/static/js/453.5d79306b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b368b1ba.css",
-    "static/js/main.3f007753.js"
+    "static/css/main.67c7c845.css",
+    "static/js/main.e87ce211.js"
   ]
 }
