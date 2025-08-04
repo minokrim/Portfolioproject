@@ -1,0 +1,21 @@
+.work2Container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.worksContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0,0.1);
+    padding: 2em;
+    gap: 5em;
+}
+
+@media screen and (max-width:660px){
+    .worksContainer{
+        padding: 1em;
+    }
+}

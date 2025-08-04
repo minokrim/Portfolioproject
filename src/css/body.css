@@ -34,6 +34,7 @@ main{
     width: 50%;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .sec1 button{
     width: 100px;
@@ -43,6 +44,7 @@ main{
     border-radius: 5px;
     border: none;
     margin-top: 20px;
+    cursor: pointer;
 }
 .sec2{
     display: flex;

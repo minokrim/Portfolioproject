@@ -17,7 +17,7 @@ import { Link } from 'react-router-dom';
 export default function Content(){
     return <div className="contentBody">
         <Navbar/>
-        <section className="designs">
+        {/* <section className="designs">
             <h1 className="designheader">DESIGNS</h1>
             <div className="graphics">
             <section className="designLeft">
@@ -47,10 +47,9 @@ export default function Content(){
             </div>
             </section>
             </div>
-        </section>
+        </section> */}
 
         <section className="videos">
-            <h2>VIDEOS</h2>
             <section className="videossec">
             <div className="framesec framsec1">
             <iframe src="https://www.youtube.com/embed/XZnRISVYNi8?start=57" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="frame frame1" title="vid1"></iframe>
@@ -127,10 +126,10 @@ export default function Content(){
             </div>
         </section>
 
-        <section className="contentSec1">
+        {/* <section className="contentSec1">
             <h3>CONTENT CREATION JOURNEY</h3>
             <img src={contentimg} alt="" />
-        </section>
+        </section> */}
         <Footer/>
     </div>
 }

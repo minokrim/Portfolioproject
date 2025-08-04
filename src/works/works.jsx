@@ -15,6 +15,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import juice from "../Assets/juice2.png"
 import Swal from 'sweetalert2'
+import Works2 from "./works2.jsx";
 
 export default function Works(){
     function handleClick(){
@@ -40,8 +41,8 @@ export default function Works(){
     AOS.init();
     return <div className="workBody">
         <Navbar/>
+        
         <section className="projContainer">
-
         <section className="proj1 proj" data-aos="fade-up" data-aos-delay="500" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-testid="project">
             <div className="imgborder">
             <img src={unidocs} alt="" className="proj2img" data-aos="flip-left" fetchPriority="high"/>
@@ -251,8 +252,7 @@ I designed and developed a mission-driven landing page with a focus on encouragi
             </div>
         </section>
         
-        </section>
-        
+        </section>        
         <Footer/>
     </div>
 }

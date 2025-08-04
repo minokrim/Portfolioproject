@@ -6,6 +6,7 @@ import Contact from './contact.js';
 import Works from './works/works.jsx';
 import Content from './content/content.jsx';
 import {Route,Routes, HashRouter } from 'react-router-dom';
+import Works2 from './works/works2.jsx';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Route path='/' element={<Home/>} exact/>
         <Route path='/About' element={<About/>}exact/>
         <Route path='/Contact'element={<Contact/>} Exact/>
-        <Route path='/Works'element={<Works/>} Exact/>
+        <Route path='/Works'element={<Works2/>} Exact/>
         <Route path='/content'element={<Content/>} Exact/>
       </Routes>
       </HashRouter>

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./css/body.css"
 import image from "./Assets/profimage.webp"
-import resume from "./Assets/Resume1.pdf"
+import resume from "./Assets/RESUME.pdf"
 import Typed from 'typed.js';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
