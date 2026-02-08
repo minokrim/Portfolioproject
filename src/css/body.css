@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(../Assets/Roboto/Roboto-Regular.ttf) format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto Extra Bold";
+    src: url(../Assets/Roboto/Roboto-Bold.ttf) format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto Light Italic";
+    src: url(../Assets/Roboto/Roboto-Italic.ttf) format("truetype");
+    font-weight: normal;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.sec1 button{
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.sec2{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: top;
+    width: 50%;
+
+}
+.sec2 img{
+    position: relative;
+    width: auto;
+    height: 30rem;
+    border-radius: 10px;
+    rotate: 5deg;
+    z-index: 0;
+    object-fit: cover;
+}
+main h1{
+    font-family: "Roboto Extra Bold";
+    width: 400px;
+    font-size: 2rem;
+    height: 150px;
+}
+@media screen and (max-width:770px){
+    main{
+        width: 100%;
+        padding-top: 3em;
+    }
+    .sec2 img{
+        width: auto;
+        height: 20rem;
+    }
+}
+
+@media screen and (max-width:660px){
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .sec1{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        padding: 0;
+    }
+    .sec1 button{
+        margin-top: 25px;
+    }
+        main h1{
+        height: 5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+        .sec2{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding-top: 20;
+    }
+    .sec2 img{
+    width: auto;
+    height: 200px;
+        rotate: 0deg;
+        margin-top: 50px;
+    }
+    .sec1 h1{
+        width: 90%;
+    }
+    .sec2{
+        width: 100%;
+    }
+
+}

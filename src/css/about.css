@@ -1,0 +1,346 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(../Assets/Roboto/Roboto-Regular.ttf) format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto Extra Bold";
+    src: url(../Assets/Roboto//Roboto-Bold.ttf) format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto Light Italic";
+    src: url(../Assets/Roboto/Roboto-Italic.ttf) format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto Black Italic";
+    src: url(../Assets/Roboto//Roboto-BlackItalic.ttf) format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto Thin Italic";
+    src: url(../Assets/Roboto//Roboto-ThinItalic.ttf) format("truetype");
+    font-weight: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.aboutme{
+    width: 100%;
+    background-color: #e5e7eb;
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    columns: black;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    align-items: center;
+}
+.aboutme img{
+    max-width: auto;
+    height: 35rem;
+    border-radius: 10px;
+    margin: 50px;
+}
+.aboutme p{
+    display: flex;
+    width: 700px;
+    font-family: "Roboto Light Italic";
+    font-weight: lighter;
+    font-size: 1.2rem;
+    color: black;
+    align-items: center;
+    line-height: 30px;
+}
+.skills_tools_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(116, 116, 117, 0.5);
+    width: 95%;
+    border-radius: 5em;
+    margin: 3em 0 3em 0;
+}
+.skills_tools{
+    display: flex;
+}
+.btn-cont{
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 2em;
+}
+.btn{
+    display: flex;
+    width: 8em;
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    align-self: flex-end;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 5px #666;
+    border: none;
+    cursor: pointer;
+}
+.btn:active{
+    background-color: rgb(50, 124, 156);
+    transform: scale(0.95);
+    box-shadow: 0 2px #666;
+}
+.skills_tools h1{
+    align-self: center;
+    font-family: "Roboto Thin Italic";
+    font-weight: bolder;
+    font-size: 3rem;
+    width: 50%;
+}
+.aboutparagraph{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.5em;
+    color: black;
+    width: 90%;
+}
+.aboutparagraph h3{
+    color: black;
+    text-align: right;
+    font-size: 2.5em;
+    font-family: "Roboto Extra Bold";
+}
+.paragraph1{
+    text-align: left;
+    font-family: "Roboto Light Italic";
+        color: black;
+
+}
+.paragraph2{
+    text-align: left;
+    margin-top: 1em;
+        color: black;
+
+}
+.paragraph3{
+    text-align: left;
+    margin-top: 1em;
+    color: black;
+}
+.stack{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: left;
+    list-style: circle;
+    font-family: "Roboto Light Italic";
+    font-weight: 600;
+    gap: 10px;
+    font-size: 0.9em;
+}
+.paragraph4{
+    text-align: right;
+    margin-top: 1em;
+}
+
+.skills_tools img{
+    width: auto;
+    height: 5rem;
+}
+.experience{
+    display: flex;
+    padding: 2em;
+    background-blend-mode: multiply;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+figure{
+    background-color: rgb(14, 14, 50);
+    height: 25em;
+    width: 90%;
+    border-radius: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.experience h2{
+    color: black;
+    font-family: "Roboto Thin Italic";
+    font-weight: bolder;
+    font-size: 3rem;
+    width: 50%;
+    text-align: center;
+    align-self: center;
+}
+.carousel{
+    width: 100%;
+    display: flex;
+    padding: 2em;
+    justify-content: space-between;
+    gap: 5em;
+}
+.experience div{
+    display: flex;
+}
+.experience figcaption{
+    color: white;
+    font-family: "Roboto Black Italic";
+    font-weight: lighter;
+}
+.experience img{
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+
+}
+
+@media screen and (max-width:770px){
+    .intro{
+        flex-direction: column;
+    }
+    .aboutme p{
+        display: flex;
+        text-align: start;
+        justify-self: center;
+        align-self: center;
+        width: 100%;
+    }
+    .aboutme .intro img{
+        width: auto;
+        height: 500px;
+    }
+    .skill_img>img{
+        width: auto;
+        height: 3em;
+    }
+}
+
+@media screen and (max-width:660px){
+    .aboutme{
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+    }
+    .aboutme .intro{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .aboutme .intro img{
+        width: auto;
+        height: 400px;
+    }
+
+    .aboutme p{
+        display: flex;
+        text-align: start;
+        justify-self: center;
+        align-self: center;
+        padding: 0 20px 20px 20px;
+        width: 100%;
+    }
+    .aboutme ul{
+        padding: 0 20px 20px 20px;
+    }
+    .skills_tools_container{
+        width: 90%;
+    }
+    .skills_tools{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .skills_tools h1{
+        width: 100%;
+        text-align: center;
+        height: max-content;
+        margin-top: 0.5em;
+        font-size: 2em;
+    }
+    .skills_tools div{
+        align-items: center;
+        justify-content: center;
+    }
+    .skill_img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .skill_img>img{
+        width: auto;
+        height: 3em;
+    }
+
+    .btn{
+        width: 70%;
+        align-self: center;
+    }
+    .experience{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .experience h2{
+        width: 100%;
+        margin-top: 0.5em;
+    }
+
+    #logos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    #caleb{
+        width: auto;
+        height: 50px;
+    }
+    .experience img{
+        width: auto;
+        height: 80px;
+    }
+    .experience figure{
+        width: 80%;
+        margin: 0px;
+        padding: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    .aboutparagraph h3{
+        text-align: center;
+        font-family: "Roboto Extra Bold";
+    }
+    .aboutparagraph{
+        font-size: 1em;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 1em;
+    }
+    .paragraph1{
+        text-align: center;
+    }
+    .carousel{
+        align-items: center;
+        padding: 1em;
+        gap: 0em;
+    }
+    
+}
