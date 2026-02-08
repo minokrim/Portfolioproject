@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c057fc9c.css",
-    "main.js": "/static/js/main.cc5f127f.js",
+    "main.js": "/static/js/main.5d602c28.js",
     "static/js/453.5d79306b.chunk.js": "/static/js/453.5d79306b.chunk.js",
     "static/media/cysdl.png": "/static/media/cysdl.2cf29e396b7683281100.png",
     "static/media/p2.png": "/static/media/p2.b658065a95e2fbfc2c7b.png",
@@ -9,14 +9,19 @@
     "static/media/anime2.png": "/static/media/anime2.5de372bdcda2a762ad53.png",
     "static/media/ecommerce1.png": "/static/media/ecommerce1.cfe29d805493f8d7df36.png",
     "static/media/cysdcam5.png": "/static/media/cysdcam5.986fb3d29b3995c7083b.png",
+    "static/media/aura1.png": "/static/media/aura1.ed7e40c62ff518e8501b.png",
     "static/media/anime4.png": "/static/media/anime4.9be38120692250fd82c2.png",
     "static/media/juice2.png": "/static/media/juice2.015e408158f750e993a5.png",
     "static/media/zendest4.png": "/static/media/zendest4.bc8d93b78e9ff35c223f.png",
     "static/media/cysdcam2.png": "/static/media/cysdcam2.d92db8b3be4733b1ef24.png",
+    "static/media/aura2.png": "/static/media/aura2.acf3e21eb03f48412b86.png",
     "static/media/cysdcam4.png": "/static/media/cysdcam4.603783cbb23eb5ebf577.png",
+    "static/media/aura3.png": "/static/media/aura3.a59b2524104ccb5dddb7.png",
     "static/media/zendest3.png": "/static/media/zendest3.519bd72249817131f0dd.png",
+    "static/media/aura4.png": "/static/media/aura4.ead523161627c57fe4d8.png",
     "static/media/roadmap.jpg": "/static/media/roadmap.7f26604e690c5f3b4a73.jpg",
     "static/media/zendest2.png": "/static/media/zendest2.3915f1edddbcc9167a92.png",
+    "static/media/aura5.png": "/static/media/aura5.738cb8649ab301a3272a.png",
     "static/media/uni1.png": "/static/media/uni1.1315e8633c06e19f9fed.png",
     "static/media/contsumm2.png": "/static/media/contsumm2.bfafb86cb52bf51bf14d.png",
     "static/media/NYSC_LOGO.svg-removebg-preview.png": "/static/media/NYSC_LOGO.svg-removebg-preview.b94bf641dc6a77bcc60f.png",
@@ -39,7 +44,7 @@
     "static/media/reactlogo-removebg-preview.png": "/static/media/reactlogo-removebg-preview.0e34e8bf12fb0f694a64.png",
     "static/media/cysdcam3.png": "/static/media/cysdcam3.8dd1e6b72f3689b5f1f8.png",
     "static/media/port3.png": "/static/media/port3.57659baac67291f99226.png",
-    "static/media/RESUME.pdf": "/static/media/RESUME.83e8eca73a61867b8da8.pdf",
+    "static/media/resume.pdf": "/static/media/resume.83e8eca73a61867b8da8.pdf",
     "static/media/voice.webp": "/static/media/voice.ad29994833961310eb15.webp",
     "static/media/port6.JPG": "/static/media/port6.f616a05ffe287c09ba3a.JPG",
     "static/media/logo2.png": "/static/media/logo2.b47de68951b57acd4e34.png",
@@ -80,11 +85,11 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.c057fc9c.css.map": "/static/css/main.c057fc9c.css.map",
-    "main.cc5f127f.js.map": "/static/js/main.cc5f127f.js.map",
+    "main.5d602c28.js.map": "/static/js/main.5d602c28.js.map",
     "453.5d79306b.chunk.js.map": "/static/js/453.5d79306b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c057fc9c.css",
-    "static/js/main.cc5f127f.js"
+    "static/js/main.5d602c28.js"
   ]
 }
